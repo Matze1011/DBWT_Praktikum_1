@@ -17,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j6eYeHgcFJqVqPpeA3koL5Wmia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603129019020</updated>
-      <workItem from="1603129020458" duration="933000" />
+      <workItem from="1603129020458" duration="1291000" />
     </task>
     <servers />
   </component>
@@ -49,9 +53,21 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1603129117446">
+    <state x="194" y="23" key="CommitChangelistDialog2" timestamp="1603130348241">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603129117446" />
+    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603130348241" />
+    <state x="536" y="342" key="Github.ShareDialog" timestamp="1603130301009">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="536" y="342" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130301009" />
+    <state x="414" y="108" key="Github.UntrackedFilesDialog" timestamp="1603130308947">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
+    <state x="221" y="23" width="1201" height="877" key="SettingsEditor" timestamp="1603130471318">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603130471318" />
   </component>
 </project>
