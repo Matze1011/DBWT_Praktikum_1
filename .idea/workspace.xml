@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/logo-FH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4c_bild.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4d_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +54,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603129019020</updated>
-      <workItem from="1603129020458" duration="2391000" />
+      <workItem from="1603129020458" duration="7939000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -74,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603130527815</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aufgabe 4 angefangen">
+      <created>1603131778232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603131778232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,18 +115,20 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="configurations files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurations files added" />
+    <MESSAGE value="Aufgabe 4 angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 4 angefangen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603129425309">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="194" y="23" key="CommitChangelistDialog2" timestamp="1603130527650">
+    <state x="194" y="23" key="CommitChangelistDialog2" timestamp="1603131778116">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603130527650" />
+    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state x="536" y="342" key="Github.ShareDialog" timestamp="1603130301009">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -122,17 +137,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state x="221" y="23" width="1201" height="877" key="SettingsEditor" timestamp="1603131649320">
+    <state x="221" y="23" width="1201" height="877" key="SettingsEditor" timestamp="1603314175743">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603131649320" />
+    <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603314175743" />
     <state x="417" y="98" key="VCS.ChangeListViewerDialog" timestamp="1603130616250">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="417" y="98" key="VCS.ChangeListViewerDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130616250" />
-    <state x="220" y="138" key="Vcs.Push.Dialog.v2" timestamp="1603130535765">
+    <state x="220" y="138" key="Vcs.Push.Dialog.v2" timestamp="1603131784182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603130535765" />
+    <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
   </component>
 </project>
