@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/logo-FH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4c_bild.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4d_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" afterDir="false" />
     </list>
@@ -60,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603129019020</updated>
       <workItem from="1603129020458" duration="7939000" />
+      <workItem from="1603378237498" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -113,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -129,6 +128,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
+    <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603316237155">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1188" y="395" key="FileChooserDialogImpl/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603316237155" />
     <state x="536" y="342" key="Github.ShareDialog" timestamp="1603130301009">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -137,9 +140,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state x="221" y="23" width="1201" height="877" key="SettingsEditor" timestamp="1603314175743">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="393" y="0" width="1201" height="877" key="SettingsEditor" timestamp="1603316239055">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="393" y="0" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603316239055" />
     <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603314175743" />
     <state x="417" y="98" key="VCS.ChangeListViewerDialog" timestamp="1603130616250">
       <screen x="0" y="23" width="1440" height="877" />
