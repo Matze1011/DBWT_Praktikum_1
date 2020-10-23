@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/beispiele/css_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_8a_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_8b_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_textauszeichnung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1\beispiele" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603129019020</updated>
       <workItem from="1603129020458" duration="7939000" />
-      <workItem from="1603378237498" duration="10103000" />
+      <workItem from="1603378237498" duration="11717000" />
+      <workItem from="1603447130537" duration="12830000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -93,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603391169182</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aufgabe 6 fertig">
+      <created>1603402817270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603402817270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,17 +140,18 @@
     <MESSAGE value="configurations files added" />
     <MESSAGE value="Aufgabe 4 angefangen" />
     <MESSAGE value="Aufgabe 5 fast fertig - Abschicken Button fehlt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 5 fast fertig - Abschicken Button fehlt" />
+    <MESSAGE value="Aufgabe 6 fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 6 fertig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603129425309">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1603391168632">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1603402816714">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603391168632" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603402816714" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603316237155">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -159,10 +174,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="417" y="98" key="VCS.ChangeListViewerDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130616250" />
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1603391175454">
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1603402841336">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603391175454" />
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603402841336" />
     <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
   </component>
 </project>
