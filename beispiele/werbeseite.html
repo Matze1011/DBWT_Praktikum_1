@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+-Praktikum DBWT. Autoren:
+-Marcel, Buschmann, 3220186
+-Michael Buschmann, 3220197
+-->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet_werbeseite.css">
+    <title>E-Mensa Werbeseite</title>
+</head>
+<body>
+<main>
+    <div id="grid-container">
+        <div class="links>"></div>
+        <div class="mitte-inhalt">
+            <!--Navbar oben mit Links-->
+            <nav class="topnav">
+                <img id= "logo" src="logo-FH%20(1).png" height="30" alt="FH Logo">
+                <a href="#ankündigung">Ankündigung</a>
+                <a href="#speisen">Speisen</a>
+                <a href="#zahlen">Zahlen</a>
+                <a href="#kontakt">Kontakt</a>
+                <a href="#wichtig">Wichtig für uns</a>
+            </nav>
+            <!-- Großes Mensa Bild -->
+        <img id= "logo-mensa" src="MenaBild.jpg" width="800" alt="Mensa-Logo">
+        <br>
+        <h2> Bald gibt es Essen auch online;)</h2>
+            <p id="text1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.
+            </p>
+            <br>
+            <h2>Köstlichkeiten, die sie erwarten</h2>
+            <!--Tabelle für die Preise -->
+            <table id="preis-tabelle" style="background-color:#40BEA9">
+                <tr style="background-color: #40BEA9;color: white">
+                    <th> </th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
+                </tr>
+                <tr style="background-color: white">
+                    <td style="text-align: left">Rindfleisch mit Bambus, Kaiserschoten <br> und rotem Paprika, dazu Mie Nudeln</td> <td>3,50€</td> <td>6,20€</td>
+                </tr>
+                <tr style="background-color: white">
+                    <td style="text-align: left">Spinatrisotto mit kleinen Samosateigecken<br> und gemischter Salat</td> <td>2,90€</td> <td>5,30€</td>
+                </tr>
+            </table>
+            <br>
+
+            <h2>E-Mensa in Zahlen</h2>
+            <h3>
+                <ul id="mensa-zahlen">
+                    <li>143 Besuche</li>
+                    <li>50 Anmeldungen zum Newsletter</li>
+                    <li>7 Speisen</li>
+                </ul>
+            </h3>
+            <br>
+
+            <h2>Interesse geweckt? Wir informieren Sie!</h2>
+
+            <!-- Formular für Newsletter -->
+
+            <form action = "formdata.html" id="newsletter-formular" method ="post">
+                <fieldset class="formular-felder">
+                        <div style="float: left">
+                        <label for="name" style="float: left">Ihr Name:</label>
+                        <br>
+                        <input type="text" id="name" name="benutzer" size="30"  required placeholder="Bitte Namen eingeben">
+                        </div>
+
+                        <div style="float: left">
+                        <label for="email" style="float:left">Ihre E-Mail</label>
+                            <br>
+                        <input type="email" id="email" name="benutzer" size="30" required placeholder="Bitte geben Sie Ihre E-Mail ein">
+                        </div>
+                        <div style="float: right">
+                            <label for = "sprache"> Newsletter bitte in</label>
+                            <br>
+                            <select class="pfeil" name="sprache" id="sprache" style= "width: 120px">
+                                <option value="1">Englisch</option>
+                                <option value="2" selected>Deutsch</option>
+                                <option value="3">Spanisch</option>
+                            </select>
+                        </div>
+                    <br>
+                        <div style="float: left">
+                        <input type="checkbox" required name="datenschutz" id="Datenschutz">
+                        <label for="Datenschutz">Den Datenschutzbestimmungen stimme ich zu</label>
+                        </div>
+                        <br>
+                        <input type="submit" value="Zum Newsletter anmelden">
+                </fieldset>
+            </form>
+
+            <h2>Das ist uns wichtig</h2>
+
+                <ul id="auflistung">
+                <li>Beste frische saisonale Zutaten</li>
+                <li>Ausgewogene abwechselungsreiche Gerichte</li>
+                <li>Sauberkeit</li>
+                </ul>
+                <br>
+
+            <h2>Wir freuen uns auf ihren Besuch!</h2>
+
+        </div>
+        <div class="rechts"></div>
+    </div>
+</main>
+
+<footer>
+    <ul>
+        <li>&nbsp;(c) E-Mensa GmbH &nbsp; </li>
+        <li>&nbsp;Marcel Buschmann und Michael Buschmann &nbsp;</li>
+        <li id="impressum">&nbsp;Impressum &nbsp;</li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>

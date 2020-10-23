@@ -1,0 +1,89 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: minmax(250px,700px) minmax(700px,800px) minmax(250px,700px);
+    text-align: center;
+    justify-content: center;
+}
+.topnav{
+    background-color: #40BEA9;
+    height: 50px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#logo{
+    padding-top: 7px;
+}
+nav {
+    word-spacing: 1.5em;
+    text-decoration: white;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo-mensa{
+    justify-self: center;
+}
+
+
+#text1{
+    text-align: left;
+    border: 1px #40BEA9 solid;
+    padding: 10px;
+}
+
+#preis-tabelle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mensa-zahlen>li{
+    display: inline;
+    margin: 10px;
+}
+
+.formular-felder {
+    display: inline;
+}
+
+#auflistung{
+    position: relative;
+    left: 200px;
+}
+
+#auflistung li{
+    text-align: left;
+}
+
+footer li {
+    display: inline;
+    border-right: 2px solid #40BEA9;
+    border-spacing: 5px;
+}
+
+footer li:last-child{
+    border-right: white;
+}
+
+footer{
+    text-align: center;
+
+}
+
+main{
+    border-bottom: 1px #40BEA9 solid;
+}
+
+#impressum{
+    color: #40BEA9;
+}
+
+
+
+
+
+
