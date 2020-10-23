@@ -23,6 +23,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
+    word-spacing: 0em;
 }
 
 #logo-mensa{
@@ -80,6 +81,17 @@ main{
 
 #impressum{
     color: #40BEA9;
+}
+
+#submit-button{
+    background-color: #40BEA9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+input:disabled {
+    background: gainsboro;
 }
 
 

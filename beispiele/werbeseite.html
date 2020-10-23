@@ -19,16 +19,16 @@
             <nav class="topnav">
                 <img id= "logo" src="logo-FH%20(1).png" height="30" alt="FH Logo">
                 <a href="#ankündigung">Ankündigung</a>
-                <a href="#speisen">Speisen</a>
-                <a href="#zahlen">Zahlen</a>
+                <a href="#preis-tabelle">Speisen</a>
+                <a href="#zahlen-mensa">Zahlen</a>
                 <a href="#kontakt">Kontakt</a>
                 <a href="#wichtig">Wichtig für uns</a>
             </nav>
             <!-- Großes Mensa Bild -->
         <img id= "logo-mensa" src="MenaBild.jpg" width="800" alt="Mensa-Logo">
         <br>
-        <h2> Bald gibt es Essen auch online;)</h2>
-            <p id="text1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
+            <p id="text1">Hier kann auch was Deutsches stehen :D, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
                 sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -54,14 +54,12 @@
             </table>
             <br>
 
-            <h2>E-Mensa in Zahlen</h2>
-            <h3>
+            <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
                 <ul id="mensa-zahlen">
                     <li>143 Besuche</li>
                     <li>50 Anmeldungen zum Newsletter</li>
                     <li>7 Speisen</li>
                 </ul>
-            </h3>
             <br>
 
             <h2>Interesse geweckt? Wir informieren Sie!</h2>
@@ -96,11 +94,12 @@
                         <label for="Datenschutz">Den Datenschutzbestimmungen stimme ich zu</label>
                         </div>
                         <br>
-                        <input type="submit" value="Zum Newsletter anmelden">
+                    <br>
+                        <input id="submit-button" disabled type="submit" value="Zum Newsletter anmelden">
                 </fieldset>
             </form>
 
-            <h2>Das ist uns wichtig</h2>
+            <h2 id="wichtig">Das ist uns wichtig</h2>
 
                 <ul id="auflistung">
                 <li>Beste frische saisonale Zutaten</li>
@@ -116,7 +115,7 @@
     </div>
 </main>
 
-<footer>
+<footer id="kontakt">
     <ul>
         <li>&nbsp;(c) E-Mensa GmbH &nbsp; </li>
         <li>&nbsp;Marcel Buschmann und Michael Buschmann &nbsp;</li>

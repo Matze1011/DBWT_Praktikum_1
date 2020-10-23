@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/MenaBild.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/logo-FH (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/stylesheet_werbeseite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/werbeseite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/stylesheet_werbeseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/werbeseite.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/werbeseite.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <updated>1603129019020</updated>
       <workItem from="1603129020458" duration="7939000" />
       <workItem from="1603378237498" duration="11717000" />
-      <workItem from="1603447130537" duration="26735000" />
+      <workItem from="1603447130537" duration="27803000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603463847931</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="E-Mensa Seite fertig">
+      <created>1603476685184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603476685184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,17 +170,18 @@
     <MESSAGE value="Aufgabe 8 fertig" />
     <MESSAGE value="Aufgabe 8 fertig jetzt wirklich. Fehlen nur die vertikalen Linien im Footer" />
     <MESSAGE value="Aufgabe 8 alles FERTIG." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 8 alles FERTIG." />
+    <MESSAGE value="E-Mensa Seite fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="E-Mensa Seite fertig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603129425309">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1603463847410">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1603476684645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603463847410" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603476684645" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
       <screen x="0" y="0" width="2560" height="1400" />
