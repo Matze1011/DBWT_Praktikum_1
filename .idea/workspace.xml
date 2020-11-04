@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/erstePhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/meal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +55,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
       <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1" />
       <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1\beispiele\werbeseite" />
       <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1\beispiele" />
@@ -91,7 +92,7 @@
       <workItem from="1603971999035" duration="1330000" />
       <workItem from="1604149361629" duration="611000" />
       <workItem from="1604504822426" duration="17000" />
-      <workItem from="1604508172155" duration="163000" />
+      <workItem from="1604508172155" duration="5558000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604508222167</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Gesamtes Projekt in htdcos von xampp geschoben">
+      <created>1604508629580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604508629580</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,10 +243,10 @@
     </state>
     <state x="320" y="148" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508336185" />
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604508221646">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604508629166">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508221646" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508629166" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -256,19 +264,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508276600" />
-    <state x="393" y="0" width="1201" height="877" key="SettingsEditor" timestamp="1603979412472">
+    <state x="393" y="0" width="1201" height="877" key="SettingsEditor" timestamp="1604508887344">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="393" y="0" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603979412472" />
+    <state x="393" y="0" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508887344" />
     <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603314175743" />
     <state x="417" y="98" key="VCS.ChangeListViewerDialog" timestamp="1603130616250">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="417" y="98" key="VCS.ChangeListViewerDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130616250" />
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1603478659336">
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1604508732173">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603478659336" />
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508732173" />
     <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
   </component>
 </project>
