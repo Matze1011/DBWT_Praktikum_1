@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/m2_4a_standardparameter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m2_4b_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m2_4c_addform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/accesslog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4d_array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/meal.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,8 @@
       <workItem from="1604149361629" duration="611000" />
       <workItem from="1604504822426" duration="17000" />
       <workItem from="1604508172155" duration="5558000" />
-      <workItem from="1604574564981" duration="9331000" />
+      <workItem from="1604574564981" duration="19409000" />
+      <workItem from="1604606767452" duration="5995000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604508629580</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Meilenstein 2:&#10;Aufgabe 5 c) fertig.">
+      <created>1604588631227</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604588631227</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +238,8 @@
     <MESSAGE value="Ordner Struktur wie gefordert angepasst" />
     <MESSAGE value="Ordner Struktur wie gefordert war falsch. Jetzt richtig" />
     <MESSAGE value="Gesamtes Projekt in htdcos von xampp geschoben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gesamtes Projekt in htdcos von xampp geschoben" />
+    <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 c) fertig." />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;Aufgabe 5 c) fertig." />
   </component>
   <component name="WindowStateProjectService">
     <state x="756" y="329" key="#CLI_Interpreters" timestamp="1604508333554">
@@ -247,10 +255,14 @@
     </state>
     <state x="320" y="148" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508336185" />
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604508629166">
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604612363115">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508629166" />
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604612363115" />
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604588630629">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604588630629" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -264,26 +276,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state width="2505" height="315" key="GridCell.Tab.0.bottom" timestamp="1604586908758">
+    <state width="2505" height="304" key="GridCell.Tab.0.bottom" timestamp="1604610808105">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="315" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604586908758" />
-    <state width="2505" height="315" key="GridCell.Tab.0.center" timestamp="1604586908757">
+    <state width="2505" height="304" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604610808105" />
+    <state width="2505" height="304" key="GridCell.Tab.0.center" timestamp="1604610808105">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="315" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604586908757" />
-    <state width="2505" height="315" key="GridCell.Tab.0.left" timestamp="1604586908757">
+    <state width="2505" height="304" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604610808105" />
+    <state width="2505" height="304" key="GridCell.Tab.0.left" timestamp="1604610808104">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="315" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604586908757" />
-    <state width="2505" height="315" key="GridCell.Tab.0.right" timestamp="1604586908757">
+    <state width="2505" height="304" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604610808104" />
+    <state width="2505" height="304" key="GridCell.Tab.0.right" timestamp="1604610808105">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="315" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604586908757" />
-    <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1604583613147">
+    <state width="2505" height="304" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604610808105" />
+    <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1604612198275">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604583613147" />
+    <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604612198275" />
     <state x="393" y="0" width="1201" height="877" key="SettingsEditor" timestamp="1604574624553">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -298,5 +310,9 @@
     </state>
     <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508732173" />
     <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
+    <state x="852" y="327" key="run.anything.popup" timestamp="1604600275317">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="852" y="327" key="run.anything.popup/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604600275317" />
   </component>
 </project>

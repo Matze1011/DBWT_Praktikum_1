@@ -1,0 +1,2 @@
+IP Adresse: 127.0.0.1	Thu, 05 Nov 2020 22:46:33 +0100	Chrome
+IP Adresse: 127.0.0.1	Thu, 05 Nov 2020 22:47:05 +0100	Chrome
