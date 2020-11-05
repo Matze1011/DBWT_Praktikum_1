@@ -15,17 +15,25 @@ $allergens = array(
 ;
 
 $englisch = array(
-        "gericht" => 'meal',
-        "allergene" => 'allgergens',
-        "bewertungenIngesamt" => 'ratings',
-        "suchen" => 'search'
+        "gericht" => 'Meal:',
+        "allergene" => 'Allgergens in this meal: ',
+        "bewertungenIngesamt" => 'Rating (Total: ',
+        "suchen" => 'search',
+        "beschreibung"=>'show description'
+);
+$deutsch = array(
+        "gericht"=>'Gericht: ',
+        "allgerne"=>'Folgende Allergene sind enthalten: ',
+        "bewertungenInsgesamt"=>'Bewertungen (Ingesamt: ',
+        "suchen"=>'suchen',
+        "beschreibung"=> 'Beschreibung anzeigen'
 );
 
 $meal = [ // Kurzschreibweise für ein Array (entspricht = array())
     'name' => 'Süßkartoffeltaschen mit Frischkäse und Kräutern gefüllt',
     'description' => 'Die Süßkartoffeln werden vorsichtig aufgeschnitten und der Frischkäse eingefüllt.',
-    'price_intern' => 2.90,
-    'price_extern' => 3.90,
+    'price_intern' => '2.90€',
+    'price_extern' => '3.90€',
     'allergens' => [11, 13],
     'amount' => 42   // Anzahl der verfügbaren Gerichte.
 ];
@@ -68,7 +76,7 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
     $sum = 0;
     $i = 1;
     foreach ($ratings as $rating) {
-        $sum += $rating['stars'] ; // /i muss weg, sonst teilen wir 2 mal durch die Anzahl an Bewertungen
+        $sum += $rating['stars'] ; // /i muss weg, sonst teilen wir 2 mal durch die Anzahl an Bewertungeny
         $i++;
     }
     return $sum / count($ratings);
@@ -80,10 +88,11 @@ function showDescription($meal){
         echo'';
     }
 }
-function changeLanguage()
+function changeLanguage($deutsch, $englisch)
 {
     //hier muss ich jetzt str_ireplace("find","replace","stringzuvergleichen")
-    str_ireplace("Gericht","meal","Gericht");
+    str_ireplace($deutsch['gericht'], $englisch['gericht'],"Gericht:");
+    //Ich muss die deutschen Wörter in Array schreiben und dann im html text via dem array ausgeben:
     echo'test';
 }
 
@@ -105,26 +114,61 @@ function changeLanguage()
         </style>
     </head>
     <body>
-    <p>Sprache ändern: <form method="get"> <input type="submit" name="englisch" value="english");"> </form></p>
-    <?php if(!empty($_GET['englisch'])){
-        changeLanguage();
-    }?>
-        <h1>Gericht: <?php echo $meal['name']; ?></h1>
+    <p>Sprache ändern: <form method="get"><input type="submit" name="Englisch" value="english");">
+    <form method="get"> <input type="submit" name="Deutsch" value="deutsch");"> </form> </p>
+
+        <h1><?php if(!empty($_GET['Deutsch'])){
+            echo $deutsch['gericht'];
+            }
+            else if(!empty($_GET['Englisch'])){
+                echo $englisch['gericht'];
+            }
+            else echo$deutsch['gericht'];?>
+        <?php echo $meal['name'] ; ?></h1>
+        <p>Preis intern: <?php echo $meal['price_intern']?> / Preis extern: <?php echo$meal['price_extern']?></p>
+
         <!--Description anzeigen und verstecken:-->
         <form method="post"> <input type="checkbox"  name="show_description" value = "anzeigen">
-            <input type = "submit" value="Beschreibung anzeigen"> </form>
+            <input type = "submit" value="<?php if(!empty($_GET['Deutsch'])){
+                echo $deutsch['beschreibung'];
+            }
+            else if(!empty($_GET['Englisch'])){
+                echo $englisch['beschreibung'];
+            }
+            else echo$deutsch['beschreibung'];?>"> </form>
+
             <p><?php if(empty($_POST[GET_PARAM_SHOW_DESCRIPTION])){
                  echo'';}
                 else{
                     echo $meal['description'];
                     } ?></p>
-        <p><b>Folgende Allergene sind enthalten: </b> <br> <?php foreach ($allergens as $value){
+        <p><b><?php if(!empty($_GET['Deutsch'])){
+                    echo $deutsch['allgerne'];
+                }
+                else if(!empty($_GET['Englisch'])){
+                    echo $englisch['allergene'];
+                }
+                else echo$deutsch['allgerne'];?> </b> <br> <?php foreach ($allergens as $value){
             echo $value, '<br>';}?></p>
-        <h1>Bewertungen (Insgesamt: <?php echo calcMeanStars($ratings); ?>)</h1>
+        <h1><?php if(!empty($_GET['Deutsch'])){
+                echo $deutsch['bewertungenInsgesamt'];
+            }
+            else if(!empty($_GET['Englisch'])){
+                echo $englisch['bewertungenIngesamt'];
+            }
+            else echo$deutsch['bewertungenInsgesamt'];?><?php echo calcMeanStars($ratings); ?>)</h1>
+
+<!-- Hier ist die Suche implementiert, -->
         <form method="get" onsubmit="return false" >
             <label for="search_text">Filter:</label>
             <input id="search_text" type="text" name="search_text" >
-            <input type="submit" value="Suchen">
+            <input type="submit" value="<?php if(!empty($_GET['Deutsch'])){
+                echo $deutsch['suchen'];
+            }
+            else if(!empty($_GET['Englisch'])){
+                echo $englisch['suchen'];
+            }
+            else echo$deutsch['suchen'];?>">
         </form>
         <table class="rating">
             <thead>
