@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604508629580</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Meilenstein 2:&#10;Aufgabe 3 e) geschafft.">
+      <created>1604538547586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604538547586</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +235,8 @@
     <MESSAGE value="Ordner Struktur wie gefordert angepasst" />
     <MESSAGE value="Ordner Struktur wie gefordert war falsch. Jetzt richtig" />
     <MESSAGE value="Gesamtes Projekt in htdcos von xampp geschoben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gesamtes Projekt in htdcos von xampp geschoben" />
+    <MESSAGE value="Meilenstein 2:&#10;Aufgabe 3 e) geschafft." />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;Aufgabe 3 e) geschafft." />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="60" key="#CLI_Interpreters" timestamp="1604508792470">
@@ -246,11 +254,11 @@
     </state>
     <state x="320" y="148" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508336185" />
     <state x="180" y="116" width="1079" height="784" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1604508807008" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604508629166">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="194" y="23" key="CommitChangelistDialog2" timestamp="1604538547390">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508629166" />
-    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
+    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604538547390" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -14,6 +14,13 @@ $allergens = array(
     17 => 'Milch')
 ;
 
+$englisch = array(
+        "gericht" => 'meal',
+        "allergene" => 'allgergens',
+        "bewertungenIngesamt" => 'ratings',
+        "suchen" => 'search'
+);
+
 $meal = [ // Kurzschreibweise für ein Array (entspricht = array())
     'name' => 'Süßkartoffeltaschen mit Frischkäse und Kräutern gefüllt',
     'description' => 'Die Süßkartoffeln werden vorsichtig aufgeschnitten und der Frischkäse eingefüllt.',
@@ -73,6 +80,12 @@ function showDescription($meal){
         echo'';
     }
 }
+function changeLanguage()
+{
+    //hier muss ich jetzt str_ireplace("find","replace","stringzuvergleichen")
+    str_ireplace("Gericht","meal","Gericht");
+    echo'test';
+}
 
 
 
@@ -92,9 +105,13 @@ function showDescription($meal){
         </style>
     </head>
     <body>
+    <p>Sprache ändern: <form method="get"> <input type="submit" name="englisch" value="english");"> </form></p>
+    <?php if(!empty($_GET['englisch'])){
+        changeLanguage();
+    }?>
         <h1>Gericht: <?php echo $meal['name']; ?></h1>
         <!--Description anzeigen und verstecken:-->
-        <form method="POST"> <input type="checkbox"  name="show_description" value = "anzeigen">
+        <form method="post"> <input type="checkbox"  name="show_description" value = "anzeigen">
             <input type = "submit" value="Beschreibung anzeigen"> </form>
             <p><?php if(empty($_POST[GET_PARAM_SHOW_DESCRIPTION])){
                  echo'';}
@@ -104,9 +121,9 @@ function showDescription($meal){
         <p><b>Folgende Allergene sind enthalten: </b> <br> <?php foreach ($allergens as $value){
             echo $value, '<br>';}?></p>
         <h1>Bewertungen (Insgesamt: <?php echo calcMeanStars($ratings); ?>)</h1>
-        <form method="get">
+        <form method="get" onsubmit="return false" >
             <label for="search_text">Filter:</label>
-            <input id="search_text" type="text" name="search_text">
+            <input id="search_text" type="text" name="search_text" >
             <input type="submit" value="Suchen">
         </form>
         <table class="rating">
