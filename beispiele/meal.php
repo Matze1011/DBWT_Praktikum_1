@@ -1,6 +1,7 @@
 <?php
 const GET_PARAM_MIN_STARS = 'search_min_stars';
 const GET_PARAM_SEARCH_TEXT = 'search_text';
+const GET_PARAM_SHOW_DESCRIPTION = 'show_description';
 
 /**
  * Liste aller möglichen Allergene.
@@ -65,6 +66,15 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
     }
     return $sum / count($ratings);
 }
+function showDescription($meal){
+    if(isset($_GET['show_description'])&& $_GET[GET_PARAM_SHOW_DESCRIPTION]==1){
+        echo $meal['description'];}
+    else{
+        echo'';
+    }
+}
+
+
 
 ?>
 <!DOCTYPE html>
@@ -83,7 +93,14 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
     </head>
     <body>
         <h1>Gericht: <?php echo $meal['name']; ?></h1>
-        <p><?php echo $meal['description']; ?></p>
+        <!--Description anzeigen und verstecken:-->
+        <form method="POST"> <input type="checkbox"  name="show_description" value = "anzeigen">
+            <input type = "submit" value="Beschreibung anzeigen"> </form>
+            <p><?php if(empty($_POST[GET_PARAM_SHOW_DESCRIPTION])){
+                 echo'';}
+                else{
+                    echo $meal['description'];
+                    } ?></p>
         <p><b>Folgende Allergene sind enthalten: </b> <br> <?php foreach ($allergens as $value){
             echo $value, '<br>';}?></p>
         <h1>Bewertungen (Insgesamt: <?php echo calcMeanStars($ratings); ?>)</h1>
