@@ -7,7 +7,15 @@
 .grid-container2{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 230px 230px;
+    grid-template-rows: 250px 250px;
+
+}
+.grid-item{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.speisenbild{
 
 }
 

@@ -18,8 +18,8 @@
             <!--Navbar oben mit Links-->
             <nav class="topnav">
                 <img id= "logo" src="../beispiele/logo-FH%20(1).png" height="30" alt="FH Logo">
-                <a href="#ankündigung">Ankündigung</a>
-                <a href="#preis-tabelle">Speisen</a>
+                <a href="#ankündigung">Speisen</a>
+                <a href="#preis-tabelle">Preise</a>
                 <a href="#zahlen-mensa">Zahlen</a>
                 <a href="#kontakt">Kontakt</a>
                 <a href="#wichtig">Wichtig für uns</a>
@@ -28,10 +28,10 @@
         <img id= "logo-mensa" src="../beispiele/MenaBild.jpg" width="800" alt="Mensa-Logo">
         <br>
         <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
-            <p<?php include ('speisenübersicht.php') ?>
+            <p><?php include ('speisenübersicht.php') ?>
             </p>
             <br>
-            <h2>Köstlichkeiten, die sie erwarten</h2>
+            <h2>Preise unser Köstlichkeiten</h2>
             <!--Tabelle für die Preise -->
             <table id="preis-tabelle" style="background-color:#40BEA9">
                 <tr style="background-color: #40BEA9;color: white">
@@ -41,8 +41,15 @@
                     <td style="text-align: left">Rindfleisch mit Bambus, Kaiserschoten <br> und rotem Paprika, dazu Mie Nudeln</td> <td>3,50€</td> <td>6,20€</td>
                 </tr>
                 <tr style="background-color: white">
-                    <td style="text-align: left">Spinatrisotto mit kleinen Samosateigecken<br> und gemischter Salat</td> <td>2,90€</td> <td>5,30€</td>
+                    <td style="text-align: left">Spinatrisotto mit kleinen Samosateigecken<br> und gemischtem Salat</td> <td>2,90€</td> <td>5,30€</td>
                 </tr>
+                <tr style="background-color: white">
+                    <td style="text-align: left">Pizza Hawaii mit köstlichem Käse <br> und frischen Ananas</td> <td>3,90€</td> <td>5,90€</td>
+                </tr>
+                <tr style="background-color: white">
+                    <td style="text-align: left">Nudeln in köstlicher Käse Sauce mit <br>saftigen Speck Streifen und Parmesan</td> <td>3,90€</td> <td>5,90€</td>
+                </tr>
+
             </table>
             <br>
 
@@ -58,18 +65,18 @@
 
             <!-- Formular für Newsletter -->
 
-            <form action = "formdata.html" id="newsletter-formular" method ="post">
+            <form action = "formdata.php" id="newsletter-formular" method ="post" onsubmit="return true">
                 <fieldset class="formular-felder">
                         <div style="float: left">
                         <label for="name" style="float: left">Ihr Name:</label>
                         <br>
-                        <input type="text" id="name" name="benutzer" size="30"  required placeholder="Bitte Namen eingeben">
+                        <input type="text" id="name" name="benutzer" size="30"   placeholder="Bitte Namen eingeben">
                         </div>
 
                         <div style="float: left">
                         <label for="email" style="float:left">Ihre E-Mail</label>
                             <br>
-                        <input type="email" id="email" name="benutzer" size="30" required placeholder="Bitte geben Sie Ihre E-Mail ein">
+                        <input type="email" id="email" name="mail" size="30" required placeholder="Bitte geben Sie Ihre E-Mail ein">
                         </div>
                         <div style="float: right">
                             <label for = "sprache"> Newsletter bitte in</label>
@@ -82,15 +89,17 @@
                         </div>
                     <br>
                         <div style="float: left">
-                        <input type="checkbox" required name="datenschutz" id="Datenschutz">
+                        <input type="checkbox" required name="datenschutz" id="Datenschutz" value = "zugestimmt">
                         <label for="Datenschutz">Den Datenschutzbestimmungen stimme ich zu</label>
                         </div>
                         <br>
                     <br>
-                        <input id="submit-button" disabled type="submit" value="Zum Newsletter anmelden">
+                        <input id="submit-button" type="submit" name="senden" value="Zum Newsletter anmelden">
                 </fieldset>
             </form>
-
+            <?php if (empty($userName)){
+    $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';
+}?>
             <h2 id="wichtig">Das ist uns wichtig</h2>
 
                 <ul id="auflistung">
