@@ -1,9 +1,16 @@
-#grid-container{
+#grid-container1{
     display: grid;
     grid-template-columns: minmax(250px,700px) minmax(700px,800px) minmax(250px,700px);
     text-align: center;
     justify-content: center;
 }
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 230px 230px;
+
+}
+
 .topnav{
     background-color: #40BEA9;
     height: 50px;
@@ -92,6 +99,14 @@ main{
 
 input:disabled {
     background: gainsboro;
+}
+
+.speisenLink{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    float: none;
 }
 
 

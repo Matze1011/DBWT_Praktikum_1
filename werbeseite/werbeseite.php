@@ -12,7 +12,7 @@
 </head>
 <body>
 <main>
-    <div id="grid-container">
+    <div id="grid-container1">
         <div class="links>"></div>
         <div class="mitte-inhalt">
             <!--Navbar oben mit Links-->
@@ -28,15 +28,7 @@
         <img id= "logo-mensa" src="../beispiele/MenaBild.jpg" width="800" alt="Mensa-Logo">
         <br>
         <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
-            <p id="text1">Hier kann auch was Deutsches stehen :D, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.
+            <p<?php include ('speisenübersicht.php') ?>
             </p>
             <br>
             <h2>Köstlichkeiten, die sie erwarten</h2>
