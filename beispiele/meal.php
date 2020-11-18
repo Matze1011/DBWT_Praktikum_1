@@ -76,7 +76,7 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
     $sum = 0;
     $i = 1;
     foreach ($ratings as $rating) {
-        $sum += $rating['stars'] ; // /i muss weg, sonst teilen wir 2 mal durch die Anzahl an Bewertungeny
+        $sum += $rating['stars'] ; // /i muss weg, sonst teilen wir 2 mal durch die Anzahl an Bewertungen, i kann eigentlich weg
         $i++;
     }
     return $sum / count($ratings);
@@ -148,8 +148,14 @@ function changeLanguage($deutsch, $englisch)
                 else if(!empty($_GET['Englisch'])){
                     echo $englisch['allergene'];
                 }
-                else echo$deutsch['allgerne'];?> </b> <br> <?php foreach ($allergens as $value){
-            echo $value, '<br>';}?></p>
+                else echo$deutsch['allgerne'];?> </b> <br>
+
+    <ul> <?php //Hier werden die Allergene ausgegeben
+        foreach($meal['allergens'] as $allergen)
+            echo "<li>{$allergens[$allergen]} </li>";
+        ?>
+    </ul>
+        <!-- Hier kommen die Bewertungen -->
         <h1><?php if(!empty($_GET['Deutsch'])){
                 echo $deutsch['bewertungenInsgesamt'];
             }

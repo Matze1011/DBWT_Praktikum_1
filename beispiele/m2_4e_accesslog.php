@@ -34,8 +34,8 @@ switch ($user_browser) {
 
 
 $leerzeichen = "\t";
-$neueZeile= "\n";
-    $server = "IP Adresse: ".$_SERVER['SERVER_ADDR'];
+$neueZeile= "\n"; //PHP_EOL
+    $server = "IP Adresse: ".$_SERVER['REMOTE_ADDR'];
     $datum = date(DATE_RFC2822);
     echo $_SERVER['SERVER_ADDR'];
     $file = fopen('./accesslog.txt','a');

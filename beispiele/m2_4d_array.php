@@ -13,7 +13,7 @@ $famousMeals = [
     3 => ['name' => 'Spaghetti Bolognese',
         'winner' => [2011, 2012, 2017]],
     4 => ['name' => 'Jägerschnitzel mit Pommes',
-        'winner' => [2019]
+        'winner' => [2019] // eigentlich mit is_array abfragen
 ]];
 
 function jahreErmitteln($famousMeals)
