@@ -12,6 +12,7 @@
 </head>
 <body>
 <main>
+    <?php include("counter.php"); ?>
     <div id="grid-container1">
         <div class="links>"></div>
         <div class="mitte-inhalt">
@@ -55,9 +56,17 @@
 
             <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
                 <ul id="mensa-zahlen">
-                    <li>143 Besuche</li>
-                    <li>50 Anmeldungen zum Newsletter</li>
-                    <li>7 Speisen</li>
+                    <!--Einlesen und ausgeben der Besucher Zahl -->
+                    <li><?php $datei="newsletterCounter.txt";
+                    $fp = fopen($datei,"r+");
+                    $zahl = file_get_contents("counter.txt");
+                    echo $zahl; ?> Besucher </li>
+                    <li>
+                        <?php $datei="newsletterCounter.txt";
+                        $fp = fopen($datei,"r+");
+                        $zahl = file_get_contents("newsletterCounter.txt");
+                        echo $zahl; ?> Anmeldungen zum Newsletter</li>
+                    <li>4 Speisen</li>
                 </ul>
             <br>
 
@@ -82,9 +91,9 @@
                             <label for = "sprache"> Newsletter bitte in</label>
                             <br>
                             <select class="pfeil" name="sprache" id="sprache" style= "width: 120px">
-                                <option value="1">Englisch</option>
-                                <option value="2" selected>Deutsch</option>
-                                <option value="3">Spanisch</option>
+                                <option value="Englisch">Englisch</option>
+                                <option value="Deutsch" selected>Deutsch</option>
+                                <option value="Spanisch">Spanisch</option>
                             </select>
                         </div>
                     <br>
@@ -98,10 +107,9 @@
                 </fieldset>
             </form>
             <?php if (empty($userName)){
-    $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';
-}?>
-            <h2 id="wichtig">Das ist uns wichtig</h2>
+            $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';}?>
 
+            <h2 id="wichtig">Das ist uns wichtig</h2>
                 <ul id="auflistung">
                 <li>Beste frische saisonale Zutaten</li>
                 <li>Ausgewogene abwechselungsreiche Gerichte</li>

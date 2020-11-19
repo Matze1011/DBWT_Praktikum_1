@@ -114,8 +114,8 @@ function changeLanguage($deutsch, $englisch)
         </style>
     </head>
     <body>
-    <p>Sprache ändern: <form method="get"><input type="submit" name="Englisch" value="english");">
-    <form method="get"> <input type="submit" name="Deutsch" value="deutsch");"> </form> </p>
+    <p>Sprache ändern: <form method="get"> <input type="submit" name="Englisch" value="english">
+    <form method="get"> <input type="submit" name="Deutsch" value="deutsch"> </form> </p>
 
         <h1><?php if(!empty($_GET['Deutsch'])){
             echo $deutsch['gericht'];

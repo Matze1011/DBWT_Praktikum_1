@@ -19,13 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert">
+      <change afterPath="$PROJECT_DIR$/werbeseite/counter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/newsletterCounter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/newsletterCounter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/nl-admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/accesslog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/accesslog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m2_4d_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m2_4d_array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/meal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterDaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/newsletterDaten.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/formdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterDaten.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +62,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -109,7 +115,7 @@
       <workItem from="1605119352383" duration="1927000" />
       <workItem from="1605179431132" duration="3758000" />
       <workItem from="1605508806135" duration="7000" />
-      <workItem from="1605723624353" duration="7168000" />
+      <workItem from="1605723624353" duration="20441000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -230,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604687863770</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert">
+      <created>1605742270553</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605742270553</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +289,8 @@
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 komplett fertig!&#10;Fehlen 6 und 7." />
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
     <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;ALLES FERTIG" />
+    <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="261" key="#CLI_Interpreters" timestamp="1605117282477">
@@ -287,10 +301,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="906" y="316" key="#PHP/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508334752" />
-    <state x="320" y="148" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605117939119">
+    <state x="265" y="129" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605809412048">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="320" y="148" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605117939119" />
+    <state x="265" y="129" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809412048" />
     <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
     <state x="934" y="479" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604672009004">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -300,11 +314,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604672243725" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1604687862996">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1605742281375">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604687862996" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605742281375" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1605742568132">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605742568132" />
     <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -317,30 +335,30 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state width="2505" height="304" key="GridCell.Tab.0.bottom" timestamp="1605186087875">
+    <state width="1727" height="385" key="GridCell.Tab.0.bottom" timestamp="1605809388299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="304" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605186087875" />
-    <state width="2505" height="304" key="GridCell.Tab.0.center" timestamp="1605186087875">
+    <state width="1727" height="385" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809388299" />
+    <state width="1727" height="385" key="GridCell.Tab.0.center" timestamp="1605809388299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="304" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605186087875" />
-    <state width="2505" height="304" key="GridCell.Tab.0.left" timestamp="1605186087875">
+    <state width="1727" height="385" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809388299" />
+    <state width="1727" height="385" key="GridCell.Tab.0.left" timestamp="1605809388299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="304" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605186087875" />
-    <state width="2505" height="304" key="GridCell.Tab.0.right" timestamp="1605186087875">
+    <state width="1727" height="385" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809388299" />
+    <state width="1727" height="385" key="GridCell.Tab.0.right" timestamp="1605809388299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="304" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605186087875" />
-    <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1604615247022">
+    <state width="1727" height="385" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809388299" />
+    <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1605800729802">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604615247022" />
-    <state x="435" y="118" width="1201" height="877" key="SettingsEditor" timestamp="1605117284119">
+    <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605800729802" />
+    <state x="435" y="118" width="1201" height="877" key="SettingsEditor" timestamp="1605809335425">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="435" y="118" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605117284119" />
+    <state x="435" y="118" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809335425" />
     <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603314175743" />
     <state x="417" y="98" key="VCS.ChangeListViewerDialog" timestamp="1603130616250">
       <screen x="0" y="23" width="1440" height="877" />
@@ -351,6 +369,14 @@
     </state>
     <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604689819516" />
     <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
+    <state x="1155" y="544" width="552" height="434" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605809683626">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1155" y="544" width="552" height="434" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809683626" />
+    <state x="1114" y="368" width="608" height="664" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605809741854">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="368" width="608" height="664" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809741854" />
     <state x="852" y="327" key="run.anything.popup" timestamp="1604600275317">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

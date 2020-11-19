@@ -9,6 +9,7 @@ $trashmails = array('rcpt.at','damnthespam', 'wegwerfmail.de','trashmail.');
 $userName = $_POST['benutzer'] ?? null;
 $userMail =  $_POST['mail'] ?? null;
 $userDatenschutz = $_POST['datenschutz'] ?? null;
+$userSprache = $_POST['sprache'];
 
 if (ctype_space($userName)){
     $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';
@@ -35,20 +36,21 @@ else {
     $neueZeile= "\n";
     $file = fopen('newsletterDaten.txt','a');
 
-    fwrite($file,'Benutzer Name: ');fwrite($file,$userName); fwrite($file,$neueZeile);
-    fwrite($file,'Benutzer Mail: ');fwrite($file,$userMail); fwrite($file,$neueZeile);
+    fwrite($file,'Name: ');fwrite($file,$userName); fwrite($file,$neueZeile);
+    fwrite($file,'Mail-Adresse: ');fwrite($file,$userMail); fwrite($file,$neueZeile);
+    fwrite($file,'Sprache: ');fwrite($file,$userSprache); fwrite($file,$neueZeile);
     fwrite($file,'Datenschutz: ') ;fwrite($file,$userDatenschutz); fwrite($file,$neueZeile); fwrite($file,$neueZeile);
-
-    echo 'Daten erfolgreich gespeichert';
+    include("newsletterCounter.php");
 
 }
-/**
-sleep(5);
-    if (isset($_SERVER["HTTP_REFERER"])){
-    header("Location: ". $_SERVER["HTTP_REFERER"]);
-    }
+
+sleep(2);
+if (isset($_SERVER["HTTP_REFERER"])) {
+    header("Location: " . $_SERVER["HTTP_REFERER"]);
+    echo 'Daten erfolgreich gespeichert';
+}
 
 ?>
- */
+
 
 
