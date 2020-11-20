@@ -74,7 +74,7 @@
 
             <!-- Formular für Newsletter -->
 
-            <form action = "formdata.php" id="newsletter-formular" method ="post" onsubmit="return true">
+            <form action = "formdata2.php" id="newsletter-formular" method ="post" >
                 <fieldset class="formular-felder">
                         <div style="float: left">
                         <label for="name" style="float: left">Ihr Name:</label>
@@ -106,7 +106,7 @@
                         <input id="submit-button" type="submit" name="senden" value="Zum Newsletter anmelden">
                 </fieldset>
             </form>
-            <?php if (empty($userName)){
+            <?php if (empty($name)){
             $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';}?>
 
             <h2 id="wichtig">Das ist uns wichtig</h2>

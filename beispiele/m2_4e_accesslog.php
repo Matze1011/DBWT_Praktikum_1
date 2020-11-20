@@ -33,14 +33,14 @@ switch ($user_browser) {
 }
 
 
-$leerzeichen = "\t";
+$komma = "\t";
 $neueZeile= "\n"; //PHP_EOL
     $server = "IP Adresse: ".$_SERVER['REMOTE_ADDR'];
     $datum = date(DATE_RFC2822);
     echo $_SERVER['SERVER_ADDR'];
     $file = fopen('./accesslog.txt','a');
-    fwrite ($file,$server); fwrite($file,$leerzeichen);
-    fwrite($file,$datum); fwrite($file,$leerzeichen);
+    fwrite ($file,$server); fwrite($file,$komma);
+    fwrite($file,$datum); fwrite($file,$komma);
     fwrite($file,$user_browser);
     fwrite ($file,$neueZeile);
     fclose($file);
