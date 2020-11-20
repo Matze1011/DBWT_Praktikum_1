@@ -19,14 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert">
-      <change afterPath="$PROJECT_DIR$/werbeseite/formdata2.php" afterDir="false" />
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/beispiele/m3_8a_testdatenbank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/nurZumTESTEN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/speisencounter.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/formdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterCounter.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/nl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/nl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +66,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/werbeseite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/beispiele" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite\img" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
       <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1" />
       <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1\beispiele\werbeseite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite" />
     </key>
   </component>
   <component name="RunManager">
@@ -118,7 +121,7 @@
       <workItem from="1605723624353" duration="20441000" />
       <workItem from="1605811717508" duration="9797000" />
       <workItem from="1605869144767" duration="13628000" />
-      <workItem from="1605883848962" duration="1339000" />
+      <workItem from="1605883848962" duration="13055000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605742270553</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt">
+      <created>1605885236648</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605885236648</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +303,8 @@
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
     <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG" />
     <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
+    <MESSAGE value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="261" key="#CLI_Interpreters" timestamp="1605117282477">
@@ -313,14 +324,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="934" y="479" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604672009004" />
-    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605879591820">
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605888852098">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879591820" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1605742281375">
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888852098" />
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1605885235925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605742281375" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605885235925" />
     <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
     <state width="314" height="242" key="DatabaseViewActions_Filter" timestamp="1605820306555">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -342,22 +353,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state width="2505" height="293" key="GridCell.Tab.0.bottom" timestamp="1605883832475">
+    <state width="1992" height="523" key="GridCell.Tab.0.bottom" timestamp="1605888963797">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605883832475" />
-    <state width="2505" height="293" key="GridCell.Tab.0.center" timestamp="1605883832475">
+    <state width="1992" height="523" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
+    <state width="1992" height="523" key="GridCell.Tab.0.center" timestamp="1605888963797">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="293" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605883832475" />
-    <state width="2505" height="293" key="GridCell.Tab.0.left" timestamp="1605883832475">
+    <state width="1992" height="523" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
+    <state width="1992" height="523" key="GridCell.Tab.0.left" timestamp="1605888963797">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="293" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605883832475" />
-    <state width="2505" height="293" key="GridCell.Tab.0.right" timestamp="1605883832475">
+    <state width="1992" height="523" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
+    <state width="1992" height="523" key="GridCell.Tab.0.right" timestamp="1605888963797">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="293" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605883832475" />
+    <state width="1992" height="523" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
     <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1605800729802">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -371,10 +382,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="417" y="98" key="VCS.ChangeListViewerDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130616250" />
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1604689819516">
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1605885239695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604689819516" />
+    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605885239695" />
     <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
     <state x="1155" y="544" width="552" height="434" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605809683626">
       <screen x="0" y="0" width="2560" height="1400" />

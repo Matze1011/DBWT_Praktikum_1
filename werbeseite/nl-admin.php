@@ -15,7 +15,7 @@
 <form  method="post">
     <input type="submit" name="namesort" value="Nach Name sortieren"/>
     <input type="submit" name="mailsort" value="Nach E-Mail sortieren"/>
-    <input type="text" name="filter">
+    <input type="text" name="filter" placeholder="Bitte Namen eingeben">
     <input type="submit" name="suchen" value="Namen durchsuchen">
 </form>
 
@@ -30,7 +30,6 @@ if(isset($_POST["namesort"])) {
 
         $line = fgets($file_handle);
         list($name, $email,$sprache) = explode(" ", $line,1000);
-        $name = strtolower($name);
         $anmeldungen[$i][0] = $name;
         $anmeldungen[$i][1] = $email;
         $anmeldungen[$i][2] = $sprache;
@@ -51,7 +50,6 @@ if(isset($_POST["mailsort"])) {
 
         $line = fgets($file_handle);
         list($name,$email,$sprache) = explode(" ", $line);
-        $name = strtolower($name);
         $anmeldungen[$i][0] = $email;
         $anmeldungen[$i][1] = $name;
         $anmeldungen[$i][2] = $sprache;
@@ -60,7 +58,7 @@ if(isset($_POST["mailsort"])) {
     sort($anmeldungen);
     for ($i = 0; $i < count(file("newsletterDaten.txt")); $i++) {
         $b = $i + 1;
-        echo "Anmeldung Nummer ".$b.':'.'<br>'.$anmeldungen[$i][0].$anmeldungen[$i][1].'<br>'.$anmeldungen[$i][2].
+        echo "Anmeldung Nummer ".$b.':'.'<br>'.$anmeldungen[$i][0]."<br>".$anmeldungen[$i][1].'<br>'.$anmeldungen[$i][2].
             '<br>'.$anmeldungen[$i][3].'<br>'.'<br>';
     }
 }
@@ -72,7 +70,6 @@ if(isset($_POST["suchen"])) {
 
         $line = fgets($file_handle);
         list($name, $email, $sprache) = explode(" ", $line);
-        $name = strtolower($name);
         $anmeldungen[$i][0] = $name;
         $anmeldungen[$i][1] = $email;
         $anmeldungen[$i][2] = $sprache;
@@ -88,7 +85,7 @@ if(isset($_POST["suchen"])) {
         if($treffer !== false)
         {
             $vorhanden = true;
-            echo "Treffer in: ".'<br><br>'.$anmeldungen[$i][0].'<br>'.$anmeldungen[$i][1].'<br>'.$anmeldungen[$i][2].'<br>'.$anmeldungen[$i][3].'<br><br>';
+            echo "Treffer in: ".'<br>'.$anmeldungen[$i][0].'<br>'.$anmeldungen[$i][1].'<br>'.$anmeldungen[$i][2].'<br>'.$anmeldungen[$i][3].'<br><br>';
         }
 
 

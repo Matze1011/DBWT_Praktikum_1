@@ -12,6 +12,7 @@
 </head>
 <body>
 <main>
+    <!-- Um Besucher zu zählen -->
     <?php include("counter.php"); ?>
     <div id="grid-container1">
         <div class="links>"></div>
@@ -34,39 +35,61 @@
             <br>
             <h2>Preise unser Köstlichkeiten</h2>
             <!--Tabelle für die Preise -->
-            <table id="preis-tabelle" style="background-color:#40BEA9">
-                <tr style="background-color: #40BEA9;color: white">
-                    <th> </th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
-                </tr>
-                <tr style="background-color: white">
-                    <td style="text-align: left">Rindfleisch mit Bambus, Kaiserschoten <br> und rotem Paprika, dazu Mie Nudeln</td> <td>3,50€</td> <td>6,20€</td>
-                </tr>
-                <tr style="background-color: white">
-                    <td style="text-align: left">Spinatrisotto mit kleinen Samosateigecken<br> und gemischtem Salat</td> <td>2,90€</td> <td>5,30€</td>
-                </tr>
-                <tr style="background-color: white">
-                    <td style="text-align: left">Pizza Hawaii mit köstlichem Käse <br> und frischen Ananas</td> <td>3,90€</td> <td>5,90€</td>
-                </tr>
-                <tr style="background-color: white">
-                    <td style="text-align: left">Nudeln in köstlicher Käse Sauce mit <br>saftigen Speck Streifen und Parmesan</td> <td>3,90€</td> <td>5,90€</td>
-                </tr>
+           <?php
+            $link = mysqli_connect(
+            "127.0.0.1", // Host der Datenbank
+            "root", // Benutzername zur Anmeldung
+            "Matze0021", // Passwort zur Anmeldung
+            "emensawerbeseite"); // Auswahl der Datenbank
 
-            </table>
+            mysqli_set_charset($link, "utf8");
+
+            if (!$link) {
+            echo "Verbindung fehlgeschlagen: ", mysqli_connect_error();
+            exit();
+            }
+           //Tabelle der Preise und Gerichte mittels Datenbank:
+           $sql =  "SELECT gericht.name, gericht.preis_intern, gericht.preis_extern, group_concat(allergen.code) 
+                        FROM gericht 
+                        LEFT JOIN gericht_hat_allergen ON gericht.id=gericht_hat_allergen.gericht_id
+                        LEFT JOIN allergen ON allergen.code=gericht_hat_allergen.code 
+                        GROUP BY gericht.name
+                        ORDER BY gericht.name ASC LIMIT 5";
+           $result = mysqli_query($link, $sql);
+           echo '<table id="preis-tabelle" style="background-color:#40BEA9">';
+           echo     '<tr style="background-color: #40BEA9;color: white">
+         <th> </th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
+         </tr>';
+           while ($row = mysqli_fetch_assoc($result)) {
+
+               echo '<tr style="background-color: white">',
+                   '<td style="text-align: left">'.$row['name']."<br>"."Allergene:(".$row['group_concat(allergen.code)'].")".'</td>',
+                   '<td style="text-align: right">'.$row['preis_intern']."€"." "." ".'</td>',
+                   '<td style="text-align: right">'.$row['preis_extern']."€".'</td>',
+               '</tr>';
+           }
+           echo '</table>';
+
+           //Verbindung schließen und Speicher wieder freigeben
+           mysqli_free_result($result);
+           mysqli_close($link);
+           ?>
             <br>
 
             <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
                 <ul id="mensa-zahlen">
                     <!--Einlesen und ausgeben der Besucher Zahl -->
-                    <li><?php $datei="newsletterCounter.txt";
+                    <li><?php $datei="counter.txt";
                     $fp = fopen($datei,"r+");
                     $zahl = file_get_contents("counter.txt");
                     echo $zahl; ?> Besucher </li>
                     <li>
-                        <?php $datei="newsletterCounter.txt";
+                    <!-- Einlesen uns ausgeben der Newsletter Anmeldungen -->
+                        <?php $datei="newsletterZähler.txt";
                         $fp = fopen($datei,"r+");
-                        $zahl = file_get_contents("newsletterCounter.txt");
+                        $zahl = file_get_contents("newsletterZähler.txt");
                         echo $zahl; ?> Anmeldungen zum Newsletter</li>
-                    <li>4 Speisen</li>
+                    <li>19 Speisen</li>
                 </ul>
             <br>
 
