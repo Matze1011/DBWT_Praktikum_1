@@ -11,31 +11,44 @@
     <title>Wunschgericht</title>
 </head>
 <body>
-<main>
-<div class="grid-container3" style="border: #40BEA9 solid">
-    <div class="grid-item">
+<main2>
+<div class="grid-container3" >
+    <div class="links>"></div>
+    <div class="Mitte_Inhalt" style="border: #40BEA9 solid">
         <p><h3>Bitte erstellen Sie ihr Wunschgericht:</h3></p>
 
-        <form  method="post">
+        <form  method="post" action="formdata_wunschgericht.php" id="wunschgericht_formular">
+            <!-- Gericht Daten -->
             <label for="Name_Gericht">Name des Gerichts:</label>
             <br>
-            <input type="text" id="Name_Gericht" name="Name" size="50"  required placeholder="Bitte geben Sie den Name ihres Gerichts ein">
+            <input type="text" id="Name_Gericht" name="gerichtname" size="50"  required placeholder="Bitte geben Sie den Name ihres Gerichts ein">
+            <br>
+            <label for ="Beschreibung_Gericht">Beschreibung:</label>
+            <br>
+            <textarea id="Beschreibung_Gericht" name="beschreibung" cols = "47" rows ="5"  required placeholder="Bitte Beschreibung des Gerichts eingeben"></textarea>
+            <br>
+            <br>
+            <br>
+
+            <h3>Bitte geben Sie ihren Namen und eine E-Mail Adresse ein:</h3>
+            <label for="Name_Ersteller">Ihr Name:</label>
+            <br>
+            <input type="text" id="Name_Ersteller" name="erstellername" size="50"  required placeholder="Bitte Namen eingeben">
+            <br>
+            <label for ="Beschreibung_Gericht">E-Mail Adresse:</label>
+            <br>
+            <input type="email" id="EMail_Ersteller" name="email" size="50"  required placeholder="Bitte E-Mail Adresse eingeben">
+            <br>
+            <br>
+            <input type="submit" value="Wunsch abschicken" id = "senden_button">
+            <br>
             <br>
         </form>
 
-<?php
-//Verbindung aufbauen zu der Datenbank
-$link = mysqli_connect(
-    "127.0.0.1", // Host der Datenbank
-    "root", // Benutzername zur Anmeldung
-    "Matze0021", // Passwort zur Anmeldung
-    "emensawerbeseite"); // Auswahl der Datenbank
-
-mysqli_set_charset($link, "utf8");
-?>
 
     </div>
-</div>
-</main>
+    <div class="rechts>"></div>
+    </div>
+</main2>
 </body>
 </html>

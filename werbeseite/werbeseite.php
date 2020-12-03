@@ -129,6 +129,7 @@
                         <input id="submit-button" type="submit" name="senden" value="Zum Newsletter anmelden">
                 </fieldset>
             </form>
+
             <?php if (empty($name)){
             $fehler = 'Der Name muss eingegeben werden und darf nicht leer sein';}?>
 
