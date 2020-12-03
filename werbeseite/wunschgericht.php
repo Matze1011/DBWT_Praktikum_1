@@ -40,7 +40,7 @@
             <input type="email" id="EMail_Ersteller" name="email" size="50"  required placeholder="Bitte E-Mail Adresse eingeben">
             <br>
             <br>
-            <input type="submit" value="Wunsch abschicken" id = "senden_button">
+            <input type="submit" value="Wunsch abschicken" id = "senden_button" name="senden_button">
             <br>
             <br>
         </form>

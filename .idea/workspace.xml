@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/stylesheet_werbeseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/wunschgericht.php" afterDir="false" />
     </list>
@@ -126,7 +124,9 @@
       <workItem from="1607010699537" duration="10817000" />
       <workItem from="1607025206660" duration="3244000" />
       <workItem from="1607028551625" duration="1088000" />
-      <workItem from="1607029696574" duration="671000" />
+      <workItem from="1607029696574" duration="998000" />
+      <workItem from="1607030770113" duration="374000" />
+      <workItem from="1607031166777" duration="2428000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607018453641</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Meilenstein 4:&#10;Aufgabe 2 angefangen">
+      <created>1607030440120</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607030440120</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +332,7 @@
     <MESSAGE value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
     <MESSAGE value="Meilenstein 3:&#10;Alles fertig" />
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 angefangen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 1 angefangen" />
+    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 2 angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 2 angefangen" />
   </component>
 </project>

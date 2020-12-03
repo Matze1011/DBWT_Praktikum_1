@@ -25,6 +25,7 @@
                 <a href="#zahlen-mensa">Zahlen</a>
                 <a href="#kontakt">Kontakt</a>
                 <a href="#wichtig">Wichtig für uns</a>
+                <a href="wunschgericht.php">Wunschgericht hinzufügen</a>
             </nav>
             <!-- Großes Mensa Bild -->
         <img id= "logo-mensa" src="../beispiele/MenaBild.jpg" width="800" alt="Mensa-Logo">
