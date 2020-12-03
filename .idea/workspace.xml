@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/m3_8a_testdatenbank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/nurZumTESTEN.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/werbeseite/speisencounter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/wunschgericht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterCounter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/newsletterZähler.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/nl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/nl-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/stylesheet_werbeseite.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +115,12 @@
       <workItem from="1605723624353" duration="20441000" />
       <workItem from="1605811717508" duration="9797000" />
       <workItem from="1605869144767" duration="13628000" />
-      <workItem from="1605883848962" duration="13055000" />
+      <workItem from="1605883848962" duration="13394000" />
+      <workItem from="1605914527291" duration="210000" />
+      <workItem from="1606388672154" duration="1320000" />
+      <workItem from="1606390030190" duration="2471000" />
+      <workItem from="1607010617489" duration="50000" />
+      <workItem from="1607010699537" duration="4844000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605885236648</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Meilenstein 3:&#10;Alles fertig">
+      <created>1605899452236</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605899452236</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,140 +310,7 @@
     <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG" />
     <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
     <MESSAGE value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="699" y="261" key="#CLI_Interpreters" timestamp="1605117282477">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="699" y="261" key="#CLI_Interpreters/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605117282477" />
-    <state x="906" y="316" key="#PHP" timestamp="1604508334752">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="906" y="316" key="#PHP/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604508334752" />
-    <state x="265" y="129" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605809412048">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="265" y="129" width="1919" height="1224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809412048" />
-    <state x="180" y="116" width="1079" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603129425309" />
-    <state x="934" y="479" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604672009004">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="934" y="479" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604672009004" />
-    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605888852098">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888852098" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1605885235925">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605885235925" />
-    <state x="194" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603131778116" />
-    <state width="314" height="242" key="DatabaseViewActions_Filter" timestamp="1605820306555">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="314" height="242" key="DatabaseViewActions_Filter/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605820306555" />
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1605742568132">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605742568132" />
-    <state x="1188" y="395" key="FileChooserDialogImpl" timestamp="1603464204212">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1188" y="395" key="FileChooserDialogImpl/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1603464204212" />
-    <state x="536" y="342" key="Github.ShareDialog" timestamp="1603130301009">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="536" y="342" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130301009" />
-    <state x="414" y="108" key="Github.UntrackedFilesDialog" timestamp="1603130308947">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="414" y="108" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130308947" />
-    <state width="1992" height="523" key="GridCell.Tab.0.bottom" timestamp="1605888963797">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1992" height="523" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
-    <state width="1992" height="523" key="GridCell.Tab.0.center" timestamp="1605888963797">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1992" height="523" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
-    <state width="1992" height="523" key="GridCell.Tab.0.left" timestamp="1605888963797">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1992" height="523" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
-    <state width="1992" height="523" key="GridCell.Tab.0.right" timestamp="1605888963797">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1992" height="523" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605888963797" />
-    <state x="1068" y="604" key="NewPhpFileDialog" timestamp="1605800729802">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1068" y="604" key="NewPhpFileDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605800729802" />
-    <state x="435" y="118" width="1201" height="877" key="SettingsEditor" timestamp="1605820039405">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="435" y="118" key="SettingsEditor/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605820039405" />
-    <state x="221" y="23" width="1201" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603314175743" />
-    <state x="417" y="98" key="VCS.ChangeListViewerDialog" timestamp="1603130616250">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="417" y="98" key="VCS.ChangeListViewerDialog/0.23.1440.877@0.23.1440.877" timestamp="1603130616250" />
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2" timestamp="1605885239695">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="391" y="184" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605885239695" />
-    <state x="220" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603131784182" />
-    <state x="1155" y="544" width="552" height="434" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605809683626">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1155" y="544" width="552" height="434" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605809683626" />
-    <state x="1114" y="368" width="608" height="781" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605812823238">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1114" y="368" width="608" height="781" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605812823238" />
-    <state x="1048" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605823508575">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1048" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605823508575" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-1" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-1/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-2" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-2/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-3" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-3/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-4" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-4/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-5" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-5/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-6" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-6/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-7" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-7/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-8" timestamp="1605879451987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-8/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605879451987" />
-    <state x="852" y="327" key="run.anything.popup" timestamp="1604600275317">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="852" y="327" key="run.anything.popup/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1604600275317" />
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1605822255189">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1920.151.1920.1040@0.0.2560.1400" timestamp="1605822255189" />
+    <MESSAGE value="Meilenstein 3:&#10;Alles fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 3:&#10;Alles fertig" />
   </component>
 </project>
