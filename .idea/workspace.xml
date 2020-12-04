@@ -20,60 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/emensa/bin/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/controllers/DemoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/models/kategorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/img/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/index_72.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/demo.dbdata.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/demo.demo.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6a_queryparameter.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6b_kategorie.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/BladeOneCache.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/BladeOneHtml.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/BladeOneLang.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/BladeOneLogic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneCache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneCacheRedis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneCustom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneHtml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneHtmlBootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/lib/BladeOneLang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/phpcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/vendor/eftec/bladeone/readme.template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/demo/dbdata.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/demo/demo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6a_queryparameter.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6b_kategorie.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/E-Mensa Werbeseite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-Mensa Werbeseite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/formdata2.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/models/kategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/kategorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6a_queryparameter.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6a_queryparameter.bladec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +152,7 @@
       <workItem from="1607044551593" duration="124000" />
       <workItem from="1607044710968" duration="68000" />
       <workItem from="1607084267694" duration="787000" />
-      <workItem from="1607085188177" duration="7842000" />
+      <workItem from="1607085188177" duration="8765000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -364,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607036955759</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Meilenstein 4:&#10;Aufgabe 6 angefangen">
+      <created>1607095297720</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607095297720</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +374,8 @@
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 angefangen" />
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 2 angefangen" />
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 und 2 fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 1 und 2 fertig" />
+    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 6 angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 6 angefangen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

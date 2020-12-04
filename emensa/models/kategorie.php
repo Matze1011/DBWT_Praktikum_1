@@ -13,3 +13,15 @@ function db_kategorie_select_all() {
     mysqli_close($link);
     return $data;
 }
+//Aufgabe 6.2 Kategorien sortiert ausgeben
+function db_kategorie_select_name() {
+    $link = connectdb();
+
+    $sql = "SELECT name FROM kategorie order by name";
+    $result = mysqli_query($link, $sql);
+
+    $data = mysqli_fetch_all($result, MYSQLI_BOTH);
+
+    mysqli_close($link);
+    return $data;
+}
