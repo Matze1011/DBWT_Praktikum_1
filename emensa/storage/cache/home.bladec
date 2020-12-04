@@ -18,6 +18,8 @@
  <li><a href="/demo/dbconnect">Datenbank: Gerichte</a></li>
  <li><a href="/example/m4_6a_queryparameter">Aufgabe 6.1</a></li>
  <li><a href="/example/m4_6b_kategorie">Aufgabe 6.2</a></li>
+ <li><a href="/example/m4_6c_gerichte">Aufgabe 6.3</a></li>
+ <li><a href="/example/m4_6d_layout">Aufgabe 6.4</a></li>
  </ul>
  </nav>
  <footer>

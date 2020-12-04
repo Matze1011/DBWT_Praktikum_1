@@ -20,11 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6c_gerichte.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6c_gerichte.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/models/kategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/kategorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6a_queryparameter.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6a_queryparameter.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/m4_6c_gerichte.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +160,7 @@
       <workItem from="1607044551593" duration="124000" />
       <workItem from="1607044710968" duration="68000" />
       <workItem from="1607084267694" duration="787000" />
-      <workItem from="1607085188177" duration="8765000" />
+      <workItem from="1607085188177" duration="12971000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -322,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607095297720</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Meilenstein 4:&#10;Aufgabe 6 angefangen">
+      <created>1607096150659</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607096150659</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

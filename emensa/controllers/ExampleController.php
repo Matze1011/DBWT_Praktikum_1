@@ -22,8 +22,8 @@ class ExampleController
         return view('examples.m4_6c_gerichte',['data'=>$data]);
     }
 
-    public function mm4_6d_layout(RequestData $rd){
-
+    public function m4_6d_layout(RequestData $rd){
+        return view('examples.pages.m4_6d_page_1',[]);
     }
 
 

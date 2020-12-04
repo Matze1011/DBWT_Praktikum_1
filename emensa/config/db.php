@@ -5,3 +5,4 @@ return [
     'password' => 'Matze0021', // '<yourpassword>',
     'database' => 'emensawerbeseite'
 ];
+
