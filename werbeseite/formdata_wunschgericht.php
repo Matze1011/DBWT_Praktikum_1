@@ -13,6 +13,7 @@ $dbname = "emensawerbeseite";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
+mysqli_set_charset($conn, "utf8");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -26,7 +27,7 @@ if(isset($_POST['senden_button']))
     $email = $_POST['email'];
 
     htmlspecialchars($gerichtname, ENT_QUOTES, 'UTF-8'); //XSS - wandelt Sonderzeichen in eine html Schreibweise um (aus " wird &quot; und sowas)
-    htmlspecialchars($beschreibung, ENT_QUOTES, 'UTF-8');
+    htmlspecialchars($beschreibung, ENT_QUOTES, 'UTF-8'); //Verhindert das Einschleusen von eigenen HTML Code
     htmlspecialchars($erstellername, ENT_QUOTES, 'UTF-8');
     htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
 
@@ -38,7 +39,7 @@ if(isset($_POST['senden_button']))
     $gerichtname = mysqli_real_escape_string($conn, $gerichtname);
     $beschreibung = mysqli_real_escape_string($conn, $beschreibung);
     $erstellername = mysqli_real_escape_string($conn, $erstellername);
-    $email = mysqli_real_escape_string($conn, $email); //macht einen string der dann in sql benutzt werden kann
+    $email = mysqli_real_escape_string($conn, $email); //. Diese Anweisung sorgt dafür das spezielle Zeichen masikiert werden. Dadurch werden Sachen wie ‘or 1=1; verhindert.
 
     $sql = "INSERT INTO wunschgericht (name, beschreibung, erstellungsdatum, erstellername, email)
      VALUES ('$gerichtname','$beschreibung', current_date, '$erstellername', '$email')";

@@ -9,6 +9,11 @@ $name = $_POST['benutzer'];
 $email = $_POST['mail'];
 $sprache = $_POST['sprache'];
 
+htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); //XSS - wandelt Sonderzeichen in eine html Schreibweise um (aus " wird &quot; und sowas)
+htmlspecialchars($email, ENT_QUOTES, 'UTF-8'); //Verhindert das Einschleusen von eigenen HTML Code
+htmlspecialchars($sprache, ENT_QUOTES, 'UTF-8');
+
+
 function isvalidemail($email)
 {
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
