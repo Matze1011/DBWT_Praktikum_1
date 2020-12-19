@@ -1,0 +1,7 @@
+ul:nth-child(even){
+    font-weight: bold;
+}
+
+li{
+    font-weight: bold;
+}

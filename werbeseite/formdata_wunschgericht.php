@@ -34,7 +34,7 @@ if(isset($_POST['senden_button']))
     $gerichtname = str_replace('\'', "", $gerichtname);
     $beschreibung = str_replace('\'', "", $beschreibung);
     $erstellername = str_replace('\'', "", $erstellername);
-    $email = str_replace('\'', "", $email);
+    $email = str_replace('\'', "", $email); // Unnötig! Da ja schon in real_escape_string drin
 
     $gerichtname = mysqli_real_escape_string($conn, $gerichtname);
     $beschreibung = mysqli_real_escape_string($conn, $beschreibung);

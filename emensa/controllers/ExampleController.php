@@ -22,8 +22,25 @@ class ExampleController
         return view('examples.m4_6c_gerichte',['data'=>$data]);
     }
 
-    public function m4_6d_layout(RequestData $rd){
-        return view('examples.pages.m4_6d_page_1',[]);
+    public function m4_6d_layout(RequestData $data){
+    if(isset($_GET['submitted'])){
+    $page = $_GET['no'];
+    }
+    else{
+    $page = 1;
+    }
+        if ($page == 1){
+            return view('examples.pages.m4_6d_page_1',['data' => $data]);
+        }
+        else{
+            return view('examples.pages.m4_6d_page_2',['data' => $data]);
+        }
+
+    }
+
+    //für unsere Emensa Werbeseite
+    public function emensaWerbeseite(){
+        return view('examples.pages.emensaWerbeseite',[]);
     }
 
 

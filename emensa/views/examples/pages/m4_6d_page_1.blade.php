@@ -1,6 +1,6 @@
 @extends ('examples.layout.m4_6d_layout')
 
-@section('title', 'Aufgabe 6.d')
+@section('title', 'm4_6d_page_1')
 
 @section('header')
     <p><h3></h3> Hier wird die Seite Nummer 1 angezeigt. Das ist der Header</h3></p>

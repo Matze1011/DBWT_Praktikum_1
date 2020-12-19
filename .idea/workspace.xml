@@ -20,19 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6c_gerichte.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6c_gerichte.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/css/aufgabe6.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/MenaBild.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/logo-FH (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.layout_emensa.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.emensaWerbeseite.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_2.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/emensaWerbeseite.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/models/kategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/kategorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.m4_6d_layout.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.m4_6d_layout.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6b_kategorie.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6b_kategorie.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_1.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_1.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/m4_6c_gerichte.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/m4_6b_kategorie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6b_kategorie.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +64,7 @@
       <list>
         <option value="HTML File" />
         <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,22 +96,25 @@
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Docker" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Docker" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/models" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\models" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\includes" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\img" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite\img" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
-      <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1" />
-      <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1\beispiele\werbeseite" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views\examples\pages" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\inlcudes" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\img" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Demo">
@@ -160,7 +178,11 @@
       <workItem from="1607044551593" duration="124000" />
       <workItem from="1607044710968" duration="68000" />
       <workItem from="1607084267694" duration="787000" />
-      <workItem from="1607085188177" duration="12971000" />
+      <workItem from="1607085188177" duration="26531000" />
+      <workItem from="1607116198140" duration="6660000" />
+      <workItem from="1607137457160" duration="383000" />
+      <workItem from="1607556791288" duration="460000" />
+      <workItem from="1607599014705" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -337,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607096150659</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Meilenstein 4:&#10;Aufgabe 6 fast fertig">
+      <created>1607100478141</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607100478141</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +419,8 @@
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 2 angefangen" />
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 und 2 fertig" />
     <MESSAGE value="Meilenstein 4:&#10;Aufgabe 6 angefangen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 6 angefangen" />
+    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 6 fast fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 6 fast fertig" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

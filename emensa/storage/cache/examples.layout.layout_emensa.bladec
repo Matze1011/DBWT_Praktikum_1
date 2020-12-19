@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="../../../public/css/stylesheet_werbeseite.css">
+ <title><?php echo $this->yieldContent('title'); ?></title>
+</head>
+
+
+<body>
+<header>
+ <div id="grid-container1">
+ <div class="links>"></div>
+ <div class="mitte-inhalt">
+ <?php $this->startSection('navbar'); ?>
+ Hier ist die navbar
+ <?php echo $this->yieldSection(); ?>
+ </div>
+ <div class="rechts"></div>
+ </div>
+</header>
+<div id="grid-container1">
+ <div class="links>"></div>
+ <div class="mitte-inhalt">
+ <?php $this->startSection('Begrüßung'); ?>
+ <?php echo $this->yieldSection(); ?>
+ </div>
+ <div class="rechts"></div>
+</div>
+<main>
+ <div id="grid-container1">
+ <div class="links>"></div>
+ <div class="mitte-inhalt">
+ <?php $this->startSection('main'); ?>
+ <?php echo $this->yieldSection(); ?>
+ Main Inhalt
+ </div>
+ <div class="rechts"></div>
+ </div>
+</main>
+<footer>
+ <?php $this->startSection('footer'); ?>
+ <?php echo $this->yieldSection(); ?>
+ Unser Footer
+</footer>
+</body>
+</html>

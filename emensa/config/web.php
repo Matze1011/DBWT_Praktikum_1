@@ -6,6 +6,7 @@
  *     /demo/subpage will not work as aspected
  */
 return array(
+
     "/"            => "HomeController@index",
     "/demo"        => "DemoController@demo",
     '/dbconnect'   => 'DemoController@dbconnect',

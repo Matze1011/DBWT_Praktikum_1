@@ -1,17 +1,18 @@
 <?php $_shouldextend[1]=1; ?>
 
-<?php $this->startSection('title', 'm4_6d_page_1'); ?>
+<?php $this->startSection('title', 'm4_6d_page_2'); ?>
 
 <?php $this->startSection('header'); ?>
- <p><h3></h3> Hier wird die Seite Nummer 1 angezeigt. Das ist der Header</h3></p>
+ <p><h3></h3> Hier wird die Seite Nummer 2 angezeigt. Das ist der Header</h3></p>
 <?php $this->stopSection(); ?>
 
 <?php $this->startSection('main'); ?>
- <p><h4>Hier steht der Main Inhalt von Blade 1 drin.</h4></p>
+ <p><h4>Hier steht der Main Inhalt von Blade 2 drin.</h4></p>
 <?php $this->stopSection(); ?>
 
 <?php $this->startSection('footer'); ?>
- <p>Das hier ist der Footer von Blade 1</p>
+ <p>Das hier ist der Footer von Blade 2</p>
 <?php $this->stopSection(); ?>
+
 
 <?php if (isset($_shouldextend[1])) { echo $this->runChild('examples.layout.m4_6d_layout'); } ?>

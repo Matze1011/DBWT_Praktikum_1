@@ -6,13 +6,15 @@
 -->
 <html>
 <head>
-    <title>{{$title}}</title>
+    <link rel="stylesheet" href="css/aufgabe6.2.css">
+    <title>Kategorien</title>
 </head>
 <body>
 <div class="Aufgabe 6.2">
     <h1>Daten aus der Datenbank der Tabelle: Kategorie</h1>
-    @forelse($data as $a) {{-- For Schleife --}}
-        <li>{{$a['name']}}</li>
+    <ul>
+        @foreach($data as $a)
+                <li>{{$a['name']}}</li>
     @empty //falls leer
         <li>Keine Daten vorhanden.</li>
     @endforelse {{--Wenn keine Daten mehr vorhanden sind nichts mehr ausgeben--}}

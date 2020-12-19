@@ -5,6 +5,9 @@ require_once('../models/gericht.php');
 class HomeController
 {
     public function index(RequestData $request) {
+        //return view('emensaWerbeseite', ['rd' => $request ]);
+        //hier für die anderen Aufgaben wieder auf
         return view('home', ['rd' => $request ]);
     }
+
 }
