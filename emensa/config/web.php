@@ -10,6 +10,7 @@ return array(
     "/"            => "HomeController@index",
     "/demo"        => "DemoController@demo",
     '/dbconnect'   => 'DemoController@dbconnect',
+    '/login'        => 'AuthController@index',
 
     // Erstes Beispiel:
     //Pfad zur jeweiligen Mehtode angeben mittels @
@@ -17,5 +18,7 @@ return array(
     '/m4_6b_kategorie' => 'ExampleController@m4_6b_kategorie',
     '/m4_6c_gerichte' => 'ExampleController@m4_6c_gerichte',
     '/m4_6d_layout' => 'ExampleController@m4_6d_layout',
+    '/vlsessiondemo' => 'DemoController@vlsessiondemo',
+    '/login' => 'AuthController@index'
 
 );

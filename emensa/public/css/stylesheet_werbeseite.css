@@ -1,6 +1,7 @@
+/* Hauptseite der Emensa */
 #grid-container1{
     display: grid;
-    grid-template-columns: minmax(250px,700px) minmax(700px,800px) minmax(250px,700px);
+    grid-template-columns: minmax(150px,700px) minmax(700px,800px) minmax(150px,700px);
     text-align: center;
     justify-content: center;
 }
@@ -36,6 +37,8 @@
 #logo{
     padding-top: 7px;
 }
+
+/* Navigationsbar */
 nav {
     word-spacing: 1.5em;
     text-decoration: white;
@@ -121,6 +124,12 @@ input:disabled {
     justify-content: center;
     align-self: center;
     float: none;
+}
+
+/* Login Fenster */
+
+#login_window {
+    border: #40BEA9 SOLID 2PX;
 }
 
 

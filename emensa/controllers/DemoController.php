@@ -4,6 +4,10 @@ require_once('../models/kategorie.php');
 
 class DemoController
 {
+    public function vlsessiondemo(){
+        echo 'Hello';
+    }
+
     public function dbconnect() {
         $data = db_gericht_select_all();
         // Frage Daten aus kategorie ab:

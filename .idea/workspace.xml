@@ -19,34 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/emensa/public/css/aufgabe6.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/img/MenaBild.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/img/logo-FH (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.layout_emensa.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.emensaWerbeseite.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_2.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/examples/pages/emensaWerbeseite.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" afterDir="false" />
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;Aufgabe 6 angefangen.">
+      <change afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/models/password_crypt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/counter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/layout_emensa.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/ExampleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/DemoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.m4_6d_layout.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.layout.m4_6d_layout.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6b_kategorie.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.m4_6b_kategorie.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_1.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/examples.pages.m4_6d_page_1.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/home.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/layout/m4_6d_layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/m4_6b_kategorie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/m4_6b_kategorie.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/examples/pages/m4_6d_page_2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/emensaWerbeseite.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/formdata_wunschgericht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +50,23 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/emensa/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="composer.json" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="HighlightingSettingsPerFile">
+    <setting file="phar://$PROJECT_DIR$/emensa/bin/composer.phar/vendor/composer/autoload_classmap.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/emensa/vendor/composer" />
       <path value="$PROJECT_DIR$/emensa/vendor/eftec/bladeone" />
@@ -91,37 +86,29 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Docker" />
-    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Docker" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/models" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\models" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\includes" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\img" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views\examples\pages" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\inlcudes" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\img" />
+      <recent name="$PROJECT_DIR$/emensa/models" />
+      <recent name="$APPLICATION_CONFIG_DIR$/consoles/db" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite\img" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
+      <recent name="C:\Users\matze\Documents\xampp\DBWT_Praktikum1" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Demo">
     <configuration name="Demo" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/emensa/public" port="9000">
       <method v="2" />
     </configuration>
-    <configuration name="xampp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+    <configuration name="xampp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
     <list>
@@ -150,39 +137,17 @@
       <workItem from="1604508172155" duration="5558000" />
       <workItem from="1604574564981" duration="19409000" />
       <workItem from="1604606767452" duration="14147000" />
-      <workItem from="1604666400616" duration="18694000" />
-      <workItem from="1604689780582" duration="651000" />
-      <workItem from="1604712351772" duration="259000" />
-      <workItem from="1604712789974" duration="94000" />
-      <workItem from="1605018124462" duration="672000" />
-      <workItem from="1605116512265" duration="2798000" />
-      <workItem from="1605119352383" duration="1927000" />
-      <workItem from="1605179431132" duration="3758000" />
-      <workItem from="1605508806135" duration="7000" />
-      <workItem from="1605723624353" duration="20441000" />
-      <workItem from="1605811717508" duration="9797000" />
-      <workItem from="1605869144767" duration="13628000" />
-      <workItem from="1605883848962" duration="13394000" />
-      <workItem from="1605914527291" duration="210000" />
-      <workItem from="1606388672154" duration="1320000" />
-      <workItem from="1606390030190" duration="2471000" />
-      <workItem from="1607010617489" duration="50000" />
-      <workItem from="1607010699537" duration="10817000" />
-      <workItem from="1607025206660" duration="3244000" />
-      <workItem from="1607028551625" duration="1088000" />
-      <workItem from="1607029696574" duration="998000" />
-      <workItem from="1607030770113" duration="374000" />
-      <workItem from="1607031166777" duration="5021000" />
-      <workItem from="1607040419920" duration="3132000" />
-      <workItem from="1607043596750" duration="318000" />
-      <workItem from="1607044551593" duration="124000" />
-      <workItem from="1607044710968" duration="68000" />
-      <workItem from="1607084267694" duration="787000" />
-      <workItem from="1607085188177" duration="26531000" />
-      <workItem from="1607116198140" duration="6660000" />
-      <workItem from="1607137457160" duration="383000" />
-      <workItem from="1607556791288" duration="460000" />
-      <workItem from="1607599014705" duration="2787000" />
+      <workItem from="1604666400616" duration="17950000" />
+      <workItem from="1608479354095" duration="960000" />
+      <workItem from="1608483614218" duration="89000" />
+      <workItem from="1608560853414" duration="1912000" />
+      <workItem from="1608573696578" duration="737000" />
+      <workItem from="1608594995265" duration="1476000" />
+      <workItem from="1608719506970" duration="63000" />
+      <workItem from="1608719607549" duration="5560000" />
+      <workItem from="1608810876186" duration="10048000" />
+      <workItem from="1608859343034" duration="1137000" />
+      <workItem from="1608999319954" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -296,77 +261,7 @@
       <option name="project" value="LOCAL" />
       <updated>1604626837359</updated>
     </task>
-    <task id="LOCAL-00017" summary="Meilenstein 2:&#10;ALLES FERTIG">
-      <created>1604687863770</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1604687863770</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert">
-      <created>1605742270553</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1605742270553</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt">
-      <created>1605885236648</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1605885236648</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Meilenstein 3:&#10;Alles fertig">
-      <created>1605899452236</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1605899452236</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Meilenstein 4:&#10;Aufgabe 1 angefangen">
-      <created>1607018453641</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1607018453641</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Meilenstein 4:&#10;Aufgabe 2 angefangen">
-      <created>1607030440120</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1607030440120</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Meilenstein 4:&#10;Aufgabe 1 und 2 fertig">
-      <created>1607036955759</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1607036955759</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Meilenstein 4:&#10;Aufgabe 6 angefangen">
-      <created>1607095297720</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1607095297720</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Meilenstein 4:&#10;Aufgabe 6 angefangen">
-      <created>1607096150659</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1607096150659</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Meilenstein 4:&#10;Aufgabe 6 fast fertig">
-      <created>1607100478141</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1607100478141</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,16 +306,7 @@
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 c) fertig." />
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 komplett fertig!&#10;Fehlen 6 und 7." />
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
-    <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG" />
-    <MESSAGE value="Meilenstein 2:&#10;ALLES FERTIG - Allergene korrigiert" />
-    <MESSAGE value="Meilenstein 3:&#10;Aufgabe 2 funktioniert jetzt" />
-    <MESSAGE value="Meilenstein 3:&#10;Alles fertig" />
-    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 angefangen" />
-    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 2 angefangen" />
-    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 1 und 2 fertig" />
-    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 6 angefangen" />
-    <MESSAGE value="Meilenstein 4:&#10;Aufgabe 6 fast fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 4:&#10;Aufgabe 6 fast fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

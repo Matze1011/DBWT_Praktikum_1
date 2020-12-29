@@ -13,7 +13,7 @@
         <div class="links>"></div>
         <div class="mitte-inhalt">
     @section('navbar')
-        Hier ist die navbar
+
     @show
         </div>
         <div class="rechts"></div>
