@@ -15,4 +15,4 @@ if(crypt($benutzer_eingabe,$gehashtesPassword)==$gehashtesPassword){
 //Passwort für admin Benutzer erstellen und in Datenbank speichern
 $passwortAdmin = "admin";
 $hash_passwordAdmin = crypt($passwortAdmin,$salt);
-//echo $hash_passwordAdmin; //um es in der Datenbank zu speichern
+echo $hash_passwordAdmin; //um es in der Datenbank zu speichern
