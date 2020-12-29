@@ -6,6 +6,7 @@
         body {background-color: {{$rd->query['bgcolor'] ?? 'ffffff'}} }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Hauptseite E-Mensa</h1>

@@ -12,6 +12,7 @@
         <a href="#kontakt">Kontakt</a>
         <a href="#wichtig">Wichtig für uns</a>
         <a href="wunschgericht.php">Wunschgericht hinzufügen</a>
+        <a href= "/login">Login</a>
     </nav>
 @endsection
 
@@ -32,7 +33,7 @@
     $link = mysqli_connect(
         "127.0.0.1", // Host der Datenbank
         "root", // Benutzername zur Anmeldung
-        "Matze0021", // Passwort zur Anmeldung
+        "root", // Passwort zur Anmeldung
         "emensawerbeseite"); // Auswahl der Datenbank
 
     mysqli_set_charset($link, "utf8");
@@ -73,13 +74,13 @@
     <ul id="mensa-zahlen">
         <!--Einlesen und ausgeben der Besucher Zahl -->
         <li><?php $datei="counter.txt";
-            $fp = fopen($datei,"r+");
+            $fp = fopen($datei,"a+");
             $zahl = file_get_contents("counter.txt");
             echo $zahl; ?> Besucher </li>
         <li>
             <!-- Einlesen uns ausgeben der Newsletter Anmeldungen -->
             <?php $datei="newsletterZähler.txt";
-            $fp = fopen($datei,"r+");
+            $fp = fopen($datei,"a+");
             $zahl = file_get_contents("newsletterZähler.txt");
             echo $zahl; ?> Anmeldungen zum Newsletter</li>
         <li>19 Speisen</li>
@@ -136,9 +137,7 @@
 
     <h2>Wir freuen uns auf ihren Besuch!</h2>
 
-    </div>
-    <div class="rechts"></div>
-    </div>
+
 
 @endsection
 
