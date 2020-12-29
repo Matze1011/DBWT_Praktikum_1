@@ -7,8 +7,6 @@ class AuthController
     public function index(RequestData $rd)
     {
         $msg = $_SESSION['login_result_message'] ?? null;
-        echo $msg;
-        echo "Test";
         return view('login', ['msg' => $msg]);
 
     }
@@ -25,7 +23,7 @@ class AuthController
         $_SESSION['login_result_message'] = null;
         $link = connectdb();
         $query = "SELECT * FROM benutzer WHERE email ='$username'";
-        $query_safe = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
+        //$query_safe = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
         $result1 = mysqli_query($link, $query);
 
         if ($rows = mysqli_num_rows($result1) == 1) {
@@ -36,13 +34,14 @@ class AuthController
                 if ($password_check == true) {
                     $_SESSION['login_ok'] = true;
                     $target = $_SESSION['target'];
-                    echo "ERFOLG!!!!!";
+                    $_SESSION['login_result_message'] = 'Benutzer- oder Passwort falsch';
                         header('Location: /');
                 }
             }
         }
         else {
             $_SESSION['login_result_message'] = 'Benutzer- oder Passwort falsch';
+            $_SESSION['login_ok'] = false;
             header('Location: /login');
         }
     }

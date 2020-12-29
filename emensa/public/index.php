@@ -2,7 +2,7 @@
 const PUBLIC_DIRNAME = "public";
 const CONFIG_WEBROUTES = '../config/web.php';
 const CONFIG_DB = '../config/db.php';
-
+session_start();
 require_once $_SERVER['DOCUMENT_ROOT']."/../vendor/autoload.php";
 use eftec\bladeone\BladeOne;
 

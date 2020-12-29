@@ -20,18 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;Aufgabe 6 angefangen.">
-      <change afterPath="$PROJECT_DIR$/emensa/models/benutzer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/anmeldung_verifizieren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a68d586b-ba95-450b-b804-ac03416f14f8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a68d586b-ba95-450b-b804-ac03416f14f8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/models/password_crypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/password_crypt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="phar://$PROJECT_DIR$/emensa/bin/composer.phar/vendor/composer/autoload_classmap.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/emensa/vendor/composer" />
       <path value="$PROJECT_DIR$/emensa/vendor/eftec/bladeone" />

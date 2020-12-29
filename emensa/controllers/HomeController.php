@@ -7,7 +7,6 @@ class HomeController
 {
     public function index(RequestData $request)
     {
-        session_start();
         //Zähler für webseite
         if (!isset($_SESSION['counter'])) {
             $_SESSION['counter'] = 0;

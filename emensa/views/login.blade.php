@@ -17,6 +17,7 @@
         <img id= "logo-mensa" src="./img/MenaBild.jpg" width="800"  alt="Mensa-Logo">
         <br>
         <h2 id="login_begrüßung"> Bitte loggen sie sich ein:)</h2>
+            {{$msg}}
 
         <form action="/check_login" method="post" id = "login_window">
             <br>
