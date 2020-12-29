@@ -18,7 +18,7 @@
         <br>
         <h2 id="login_begrüßung"> Bitte loggen sie sich ein:)</h2>
 
-        <form action="anmeldung_verifizieren" method="post" id = "login_window">
+        <form action="/check_login" method="post" id = "login_window">
             <br>
             <label for="login">Benutzer</label>
             <input id="login" name="username">
@@ -26,7 +26,9 @@
             <label for="password">Passwort</label>
             <input id="password" name="password" type="password">
             <br> <br>
-            <button>anmelden</button>
+            <input id="submit" type="submit" name="submit" value="submit">
+            <br>
+            <br>
         </form>
     </div>
     <div class="rechts">

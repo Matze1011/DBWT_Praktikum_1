@@ -20,28 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;Aufgabe 6 angefangen.">
-      <change afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/models/password_crypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/counter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/layout_emensa.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/models/benutzer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/anmeldung_verifizieren.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/DemoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/inlcudes/speisenübersicht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/models/password_crypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/password_crypt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/examples/pages/emensaWerbeseite.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="phar://$PROJECT_DIR$/emensa/bin/composer.phar/vendor/composer/autoload_classmap.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/emensa/vendor/composer" />
       <path value="$PROJECT_DIR$/emensa/vendor/eftec/bladeone" />
@@ -148,6 +139,7 @@
       <workItem from="1608810876186" duration="10048000" />
       <workItem from="1608859343034" duration="1137000" />
       <workItem from="1608999319954" duration="3836000" />
+      <workItem from="1609241615901" duration="19588000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
