@@ -3,6 +3,7 @@
 @section('title', 'EMensa Werbeseite')
 
 @section('navbar')
+    {{ 'Angemeldet als: '. $user }}
     <!--Navbar oben mit Links-->
     <nav class="topnav">
         <img id= "logo" src="./img/logo-FH%20(1).png" height="30" alt="FH Logo">

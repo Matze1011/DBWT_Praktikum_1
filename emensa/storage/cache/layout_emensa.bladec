@@ -13,7 +13,6 @@
  <div class="links>"></div>
  <div class="mitte-inhalt">
  <?php $this->startSection('navbar'); ?>
-
  <?php echo $this->yieldSection(); ?>
  </div>
  <div class="rechts"></div>

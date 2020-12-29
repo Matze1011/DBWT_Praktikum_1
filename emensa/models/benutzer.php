@@ -8,13 +8,38 @@ function db_benutzer_suchen()
 {
         $link = connectdb();
         $username = mysqli_real_escape_string($link, $_POST['username']);
-        $query = "SELECT * FROM emensawerbeseite.benutzer WHERE email ='$username'";
-        $data = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
+        $query = "SELECT * FROM benutzer WHERE email ='$username'";
+        //$data = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
 
-        $result1 = mysqli_query($link, $data);
+        $result1 = mysqli_query($link, $query);
 
         mysqli_close($link);
         return $result1;
     }
+
+    function db_benutzer_anzahl_letzteanmeldungen_inkrement(){
+        $link = connectdb();
+        $username = mysqli_real_escape_string($link, $_POST['username']);
+        $sql = "UPDATE benutzer SET anzahlanmeldungen = anzahlanmeldungen+1, letzteanmeldung = CURRENT_TIMESTAMP WHERE email = '$username'";
+        if ($link->query($sql) === TRUE) {
+            echo'<script>alert("Daten gespeichert")</script>';
+        } else {
+            echo "Error: " . $sql . "<br>" . $link->error;
+        }
+        return $sql;
+}
+
+    function db_benutzer_letzterfehler(){
+        $link = connectdb();
+        $username = mysqli_real_escape_string($link, $_POST['username']);
+        $sql = "UPDATE benutzer SET letzterfehler = CURRENT_TIMESTAMP WHERE email = '$username'";
+        if ($link->query($sql) === TRUE) {
+            echo'<script>alert("Daten gespeichert")</script>';
+        } else {
+            echo "Error: " . $sql . "<br>" . $link->error;
+        }
+        return $sql;
+    }
+
 
 

@@ -21,7 +21,7 @@
        $link = mysqli_connect(
         "127.0.0.1", // Host der Datenbank
         "root", // Benutzername zur Anmeldung
-        "root", //Matze 0021 Passwort zur Anmeldung
+        "Matze0021", //Matze 0021 Passwort zur Anmeldung
         "emensawerbeseite"); // Auswahl der Datenbank
 
         mysqli_set_charset($link, "utf8");
