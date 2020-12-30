@@ -15,10 +15,11 @@ class AuthController
     /** Route /login_check */
     public function check(RequestData $rd)
     {
-       $username = $rd->query['username'] ?? false;
-
-       // $password = $rd->query['password'] ?? false;
-        $password = $_POST['password'];
+        $link = connectdb();
+        $username = $rd->query['username'] ?? false;
+        //$password = $_POST['password'];
+        $passwordsafe = mysqli_real_escape_string($link, $_POST['password']);
+        htmlspecialchars($passwordsafe, ENT_QUOTES, 'UTF-8'); //Zum Schutz
 
         // Überprüfung Eingabedaten
         $_SESSION['login_result_message'] = null;
@@ -28,16 +29,20 @@ class AuthController
             while ($data = mysqli_fetch_assoc($result1)) {
                 // De-Hashing des Passwortes
                 // password_verify($password, $row['password']) gibt true oder false zurück
-                $password_check = password_verify($password, $data['passwort']);
+                $password_check = password_verify($passwordsafe, $data['passwort']);
                 if ($password_check == true) {
                     $_SESSION['login_ok'] = true;
                     //$target = $_SESSION['target'];
                     $_SESSION['login_result_message'] = 'Sie sind bereits angemeldet';
                     $_SESSION['username'] = $_POST['username'];
 
-                    db_benutzer_anzahl_letzteanmeldungen_inkrement();
+                    //Aufgabe 1.5 und 1.6
+                    //db_benutzer_anzahl_letzteanmeldungen_inkrement();
 
+                    //Aufgabe 1.9
+                    db_mysqli_begin_transaction();
                     header('Location: /');
+
                 } else {
                     $_SESSION['login_result_message'] = 'Benutzer- oder Passwort falsch';
                     $_SESSION['login_ok'] = false;
@@ -52,5 +57,10 @@ class AuthController
             db_benutzer_letzterfehler();
             header('Location: /login');
         }
+    }
+
+    public function logout(){
+        session_destroy();
+        header ('Location: /');
     }
 }

@@ -12,8 +12,12 @@
         <a href="#zahlen-mensa">Zahlen</a>
         <a href="#kontakt">Kontakt</a>
         <a href="#wichtig">Wichtig für uns</a>
-        <a href="wunschgericht.php">Wunschgericht hinzufügen</a>
+        <a href="wunschgericht.php">Wunschgericht</a>
+        @if($login_status==false)
         <a href= "/login">Login</a>
+            @else
+        <a href= "/logout">Logout</a>
+            @endif
     </nav>
 @endsection
 
@@ -22,6 +26,8 @@
     <img id= "logo-mensa" src="./img/MenaBild.jpg" width="800"  alt="Mensa-Logo">
     <br>
     <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
+    <?php $row = "01_bratkartoffel.jpg"; ?>
+    <img src="./img/gerichte/{{$row}}" witdh="40" height="80" alt="Foto">
 @endsection
 
 @section('main')
@@ -44,7 +50,7 @@
         exit();
     }
     //Tabelle der Preise und Gerichte mittels Datenbank:
-    $sql =  "SELECT gericht.name, gericht.preis_intern, gericht.preis_extern, group_concat(allergen.code)
+    $sql =  "SELECT gericht.name,gericht.bildname,gericht.preis_intern, gericht.preis_extern, group_concat(allergen.code)
                         FROM gericht
                         LEFT JOIN gericht_hat_allergen ON gericht.id=gericht_hat_allergen.gericht_id
                         LEFT JOIN allergen ON allergen.code=gericht_hat_allergen.code
@@ -53,24 +59,23 @@
     $result = mysqli_query($link, $sql);
     echo '<table id="preis-tabelle" style="background-color:#40BEA9">';
     echo     '<tr style="background-color: #40BEA9;color: white">
-         <th> </th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
+         <th> </th><th>Bild</th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
          </tr>';
     while ($row = mysqli_fetch_assoc($result)) {
-
+        $bildpfad = $row['bildname'];
         echo '<tr style="background-color: white">',
             '<td style="text-align: left">'.$row['name']."<br>"."Allergene:(".$row['group_concat(allergen.code)'].")".'</td>',
+            '<td>'. '<img src="./img/gerichte/'.$bildpfad.'" witdh="60" height="80" alt="Foto">' .'</td>',
             '<td style="text-align: right">'.$row['preis_intern']."€"." "." ".'</td>',
             '<td style="text-align: right">'.$row['preis_extern']."€".'</td>',
         '</tr>';
     }
     echo '</table>';
-
     //Verbindung schließen und Speicher wieder freigeben
     mysqli_free_result($result);
     mysqli_close($link);
     ?>
     <br>
-
     <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
     <ul id="mensa-zahlen">
         <!--Einlesen und ausgeben der Besucher Zahl -->

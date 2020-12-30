@@ -19,26 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 2:&#10;Aufgabe 6 angefangen.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926/storage_v2/_src_/schema/emensawerbeseite.YLWk-w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf38d50f-b0f7-42e8-acce-ea11d1e84926/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_12_2020_11_54__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_12_2020_11_54__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_12_20__18_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_12_20__18_59__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/00_image_missing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/01_bratkartoffel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/03_bratkartoffel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/04_tofu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/06_lasagne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/10_forelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/11_soup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/12_kassler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/12_suppe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/13_reibekuchen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/15_pilze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/17_broetchen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/19_mousse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/img/gerichte/20_suppe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/models/benutzer.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/benutzer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/layout_emensa.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/layout_emensa.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/layout_emensa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/speisenübersicht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/werbeseite.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/werbeseite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/public/img/gerichte" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,6 +95,9 @@
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\img\gerichte" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/emensa/models" />
       <recent name="$APPLICATION_CONFIG_DIR$/consoles/db" />
@@ -146,6 +151,7 @@
       <workItem from="1608859343034" duration="1137000" />
       <workItem from="1608999319954" duration="3836000" />
       <workItem from="1609241615901" duration="19588000" />
+      <workItem from="1609283270262" duration="10123000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -259,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604626837359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Meilenstein 5:&#10;Aufgabe 1.7 fertig">
+      <created>1609279459749</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609279459749</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +317,8 @@
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 c) fertig." />
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 5 komplett fertig!&#10;Fehlen 6 und 7." />
     <MESSAGE value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 2:&#10;Aufgabe 6 angefangen." />
+    <MESSAGE value="Meilenstein 5:&#10;Aufgabe 1.7 fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 5:&#10;Aufgabe 1.7 fertig" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

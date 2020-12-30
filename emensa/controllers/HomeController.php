@@ -7,6 +7,7 @@ class HomeController
 {
     public function index(RequestData $request)
     {
+        $login_status = $_SESSION['login_ok'] ?? false;
         $user = $_SESSION['username'] ?? 'nicht angemeldet';
         //Zähler für webseite
         if (!isset($_SESSION['counter'])) {
@@ -14,9 +15,9 @@ class HomeController
         }
         $_SESSION['counter']++;
         echo $_SESSION['counter'];
-
         return view('emensaWerbeseite', ['rd' => $request,
-                                         'user' => $user]);
+                                         'user' => $user,
+                                         'login_status' => $login_status]);
         //hier für die anderen Aufgaben wieder auf
         //return view('home', ['rd' => $request ]);
     }

@@ -9,7 +9,7 @@ function db_benutzer_suchen()
         $link = connectdb();
         $username = mysqli_real_escape_string($link, $_POST['username']);
         $query = "SELECT * FROM benutzer WHERE email ='$username'";
-        //$data = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
+        $query_safe = mysqli_real_escape_string($link, $query); //_real_escape damit kein Code in die Datenbank gelangt!
 
         $result1 = mysqli_query($link, $query);
 
@@ -39,6 +39,16 @@ function db_benutzer_suchen()
             echo "Error: " . $sql . "<br>" . $link->error;
         }
         return $sql;
+    }
+
+    function db_mysqli_begin_transaction(){
+    $link = connectdb();
+    $username = mysqli_real_escape_string($link, $_POST['username']);
+    $link->begin_transaction();
+    $link->query("UPDATE benutzer SET anzahlanmeldungen = anzahlanmeldungen+1, letzteanmeldung = CURRENT_TIMESTAMP WHERE email = '$username'");
+    $link->commit();
+    return $link;
+
     }
 
 

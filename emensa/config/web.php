@@ -10,7 +10,8 @@ return array(
     "/"            => "HomeController@index",
     "/demo"        => "DemoController@demo",
     '/dbconnect'   => 'DemoController@dbconnect',
-    "/login"        => "AuthController@index",
+    "/login"       => "AuthController@index",
+    "/logout"      => "AuthController@logout",
     "/check_login" => "AuthController@check",
 
 
