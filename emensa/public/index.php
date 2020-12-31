@@ -1,10 +1,13 @@
 <?php
+session_start();
 const PUBLIC_DIRNAME = "public";
 const CONFIG_WEBROUTES = '../config/web.php';
 const CONFIG_DB = '../config/db.php';
-session_start();
 require_once $_SERVER['DOCUMENT_ROOT']."/../vendor/autoload.php";
 use eftec\bladeone\BladeOne;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+use Monolog\Handler\FirePHPHandler;
 
 /* Routing Script for PHP Dev Server */
 $verbosity = 0;
@@ -170,10 +173,32 @@ function connectdb() {
     return $link;
 }
 
-function view($viewname, $viewargs) {
+function view($viewname, $viewargs)
+{
     $views = dirname(__DIR__) . '/views';
     $cache = dirname(__DIR__) . '/storage/cache';
-    $blade = new BladeOne($views, $cache,BladeOne::MODE_DEBUG);
+    $blade = new BladeOne($views, $cache, BladeOne::MODE_DEBUG);
 
     return $blade->run($viewname, $viewargs);
 }
+
+//logger
+$logger = null;
+
+function  logger($name)
+{
+    global  $logger;
+
+    // gibt es noch keinen logger
+    if($logger == null)
+    {
+
+        $logger = new Logger($name);
+        // Verzeichnis in den wir das jeweilige Log speichern
+        $logger->pushHandler(new StreamHandler('../storage/logs/warning.log', Logger::WARNING));
+        $logger->pushHandler(new StreamHandler('../storage/logs/anmeldungen.log', Logger::INFO));
+    }
+    // rückgabe des logger objektes
+    return $logger;
+}
+

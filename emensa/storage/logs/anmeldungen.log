@@ -1,0 +1,8 @@
+[2020-12-31T13:43:31.087873+00:00] Zugriff.INFO: Zugriff auf Hauptseite von ["unbekannt"] []
+[2020-12-31T13:43:48.775123+00:00] loginversuch.WARNING: Erfolgloser Loginversuch von unbekannt [] []
+[2020-12-31T13:44:34.325890+00:00] Zugriff.INFO: Zugriff auf Hauptseite von ["unbekannt"] []
+[2020-12-31T13:44:37.772729+00:00] loginversuch.WARNING: Erfolgloser Loginversuch Benutzer:  ["admin@emensa.example"] []
+[2020-12-31T13:44:38.375200+00:00] login.INFO: Erfolgreicher Login Benutzer:  ["admin@emensa.example"] []
+[2020-12-31T13:44:38.387427+00:00] Zugriff.INFO: Zugriff auf Hauptseite von ["unbekannt"] []
+[2020-12-31T13:44:39.505497+00:00] logout.INFO: Abgemeldet Benutzer:  ["admin@emensa.example"] []
+[2020-12-31T13:44:39.515511+00:00] Zugriff.INFO: Zugriff auf Hauptseite von ["unbekannt"] []

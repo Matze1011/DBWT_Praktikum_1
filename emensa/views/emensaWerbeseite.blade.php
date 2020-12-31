@@ -3,7 +3,8 @@
 @section('title', 'EMensa Werbeseite')
 
 @section('navbar')
-    {{ 'Angemeldet als: '. $user }}
+    @if($login_status == true){{ 'Angemeldet als: '. $user }}
+    @endif
     <!--Navbar oben mit Links-->
     <nav class="topnav">
         <img id= "logo" src="./img/logo-FH%20(1).png" height="30" alt="FH Logo">
@@ -26,8 +27,6 @@
     <img id= "logo-mensa" src="./img/MenaBild.jpg" width="800"  alt="Mensa-Logo">
     <br>
     <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
-    <?php $row = "01_bratkartoffel.jpg"; ?>
-    <img src="./img/gerichte/{{$row}}" witdh="40" height="80" alt="Foto">
 @endsection
 
 @section('main')

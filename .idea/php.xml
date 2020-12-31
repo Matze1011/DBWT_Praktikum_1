@@ -4,7 +4,20 @@
     <include_path>
       <path value="$PROJECT_DIR$/emensa/vendor/composer" />
       <path value="$PROJECT_DIR$/emensa/vendor/eftec/bladeone" />
+      <path value="$PROJECT_DIR$/emensa/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/emensa/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/emensa/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/emensa/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/emensa/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/emensa/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/emensa/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/emensa/vendor/psr/http-message" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/emensa/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

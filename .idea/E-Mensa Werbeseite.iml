@@ -6,6 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/eftec/bladeone" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/psr/http-message" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
