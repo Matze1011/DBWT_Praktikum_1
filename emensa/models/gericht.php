@@ -26,6 +26,16 @@ function db_gericht_all_names() {
     return $data;
 }
 
+function db_gericht_ausgewähltes_gericht($gericht_id) {
+    $link = connectdb();
+    mysqli_set_charset($link, "utf8"); //Für Umlaute hinzugefügt
+    $sql = "SELECT bildname FROM gericht WHERE id = '$gericht_id'";
+    $result = mysqli_query($link, $sql);
+    $data = mysqli_fetch_all($result, MYSQLI_BOTH);
+    mysqli_close($link);
+    return $data;
+}
+
 //Aufgabe 6.3
 function db_gericht_select_mehr_als_2euro(){
     $link = connectdb();

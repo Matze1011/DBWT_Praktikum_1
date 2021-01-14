@@ -19,19 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beispiele/m6_a1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" afterDir="false" />
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 6:&#10;Aufgabe 1 angefangen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m6_a1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m6_a1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +169,7 @@
       <workItem from="1610640093597" duration="2314000" />
       <workItem from="1610642470254" duration="45000" />
       <workItem from="1610642528663" duration="115000" />
-      <workItem from="1610642810475" duration="7574000" />
+      <workItem from="1610642810475" duration="15952000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -309,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609422855141</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Meilenstein 6:&#10;Aufgabe 1 angefangen">
+      <created>1610651946245</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610651946246</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +362,8 @@
     <MESSAGE value="Meilenstein 5:&#10;Aufgabe 1.7 fertig" />
     <MESSAGE value="Meilenstein 5:&#10;Aufgabe 1 und 2 fertig" />
     <MESSAGE value="Meilenstein 5:&#10;Alles fertig!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 5:&#10;Alles fertig!" />
+    <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Aufgabe 1 angefangen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

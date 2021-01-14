@@ -13,6 +13,13 @@ class BewertungController
 
     }
 
+    public function bewertung_gericht_ausgesucht(RequestData $rd){
+        $gericht_bild = $_POST['gericht_bild'] ;
+        $data = db_gericht_all_names();
+        return view('bewertung',['data'=>$data]);
+        echo "gericht_bild";
+    }
+
     public function gerichte_anzeigen(RequestData $rd){
         $data = db_gericht_all_names();
         return view('bewertung',['data'=>$data]);
