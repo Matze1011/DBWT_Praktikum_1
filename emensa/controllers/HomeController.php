@@ -7,6 +7,7 @@ class HomeController
 {
     public function index(RequestData $request)
     {
+        //Aufgabe 3 Log file
         logger('Zugriff')->info('Zugriff auf Hauptseite von',['unbekannt']);
         $login_status = $_SESSION['login_ok'] ?? false;
         $user = $_SESSION['username'] ?? 'nicht angemeldet';
@@ -18,7 +19,7 @@ class HomeController
 
 
         $_SESSION['counter']++;
-        echo $_SESSION['counter'];
+        // Zum testen: echo $_SESSION['counter'];
         return view('emensaWerbeseite', ['rd' => $request,
                                          'user' => $user,
                                          'login_status' => $login_status]);

@@ -13,6 +13,8 @@ return array(
     "/login"       => "AuthController@index",
     "/logout"      => "AuthController@logout",
     "/check_login" => "AuthController@check",
+    "/bewertung" => "BewertungController@index",
+    "/bewertung_abgeben" => "BewertungController@bewertung_abgeben",
 
 
     // Erstes Beispiel:

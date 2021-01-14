@@ -7,17 +7,24 @@
     @endif
     <!--Navbar oben mit Links-->
     <nav class="topnav">
-        <img id= "logo" src="./img/logo-FH%20(1).png" height="30" alt="FH Logo">
+        <img id= "logo" src="./img/logo-FH%20(1).png" height="20" alt="FH Logo">
         <a href="#ankündigung">Speisen</a>
         <a href="#preis-tabelle">Preise</a>
         <a href="#zahlen-mensa">Zahlen</a>
         <a href="#kontakt">Kontakt</a>
         <a href="#wichtig">Wichtig für uns</a>
         <a href="wunschgericht.php">Wunschgericht</a>
+
+        @if($login_status==true)
+            <a href="/bewertung">Bewertungen</a>
+        @else
+            <a href="/login">Bewertungen</a>
+        @endif
+
         @if($login_status==false)
         <a href= "/login">Login</a>
             @else
-        <a href= "/logout">Logout</a>
+        <a href="/logout">Logout</a>
             @endif
     </nav>
 @endsection

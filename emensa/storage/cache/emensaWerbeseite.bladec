@@ -8,17 +8,24 @@
  <?php endif; ?>
  <!--Navbar oben mit Links-->
  <nav class="topnav">
- <img id= "logo" src="./img/logo-FH%20(1).png" height="30" alt="FH Logo">
+ <img id= "logo" src="./img/logo-FH%20(1).png" height="20" alt="FH Logo">
  <a href="#ankündigung">Speisen</a>
  <a href="#preis-tabelle">Preise</a>
  <a href="#zahlen-mensa">Zahlen</a>
  <a href="#kontakt">Kontakt</a>
  <a href="#wichtig">Wichtig für uns</a>
  <a href="wunschgericht.php">Wunschgericht</a>
+
+ <?php if($login_status==true): ?>
+ <a href="/bewertung">Bewertungen</a>
+ <?php else: ?>
+ <a href="/login">Bewertungen</a>
+ <?php endif; ?>
+
  <?php if($login_status==false): ?>
  <a href= "/login">Login</a>
  <?php else: ?>
- <a href= "/logout">Logout</a>
+ <a href="/logout">Logout</a>
  <?php endif; ?>
  </nav>
 <?php $this->stopSection(); ?>

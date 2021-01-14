@@ -18,13 +18,13 @@ class AuthController
         $link = connectdb();
         $username = $rd->query['username'] ?? false;
         $password = $_POST['password'];
-        $passwordsafe = mysqli_real_escape_string($link, $_POST['password']);
+        $passwordsafe = mysqli_real_escape_string($link, $_POST['password']); //Zum Schutz
         htmlspecialchars($passwordsafe, ENT_QUOTES, 'UTF-8'); //Zum Schutz
 
         // Überprüfung Eingabedaten
         $_SESSION['login_result_message'] = null;
         $result1 = db_benutzer_suchen(); //siehe models/benutzer.php
-        //FALLS NÖTIG: HIER DANN DATEN DES BENUTZERS MITTEL FETCH_ASSOOC IN EINER VARIABLEN SPEICHERN
+        //FALLS NÖTIG: HIER DANN DATEN DES BENUTZERS MITTELS FETCH_ASSOOC IN EINER VARIABLEN SPEICHERN
         if ($rows = mysqli_num_rows($result1) == 1) {
             while ($benutzer = mysqli_fetch_assoc($result1)) {
                 // De-Hashing des Passwortes
