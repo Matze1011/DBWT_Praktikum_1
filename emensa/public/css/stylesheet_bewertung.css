@@ -1,0 +1,35 @@
+.bewertung_label{
+    align-content: center;
+}
+
+.sternebewertung{
+    float: inside;
+    padding-left: 20px;
+}
+
+#bemerkung{
+    margin-right: 10px;
+}
+
+.fas{
+    color: #40BEA9;
+}
+
+.far{
+    color: #40BEA9;
+}
+
+#submit-button_bewertung{
+   color: #40BEA9;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+#submit{
+    color: #40BEA9;
+}
+
+#bemerkung_rahmen{
+    border: hidden;
+}

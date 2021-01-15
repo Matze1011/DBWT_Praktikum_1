@@ -40,7 +40,7 @@
     <p>
     </p>
     <br>
-    <h2>Preise unser Köstlichkeiten</h2>
+    <h2>Preise unserer Köstlichkeiten</h2>
     <!--Tabelle für die Preise -->
     <?php
     $link = mysqli_connect(
@@ -65,7 +65,7 @@
     $result = mysqli_query($link, $sql);
     echo '<table id="preis-tabelle" style="background-color:#40BEA9">';
     echo     '<tr style="background-color: #40BEA9;color: white">
-         <th> </th><th>Bild</th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th>
+         <th> </th><th>Bild</th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th><th style="text-align: left">Bewertung</th>
          </tr>';
     while ($row = mysqli_fetch_assoc($result)) {
         $bildpfad = $row['bildname'];
@@ -74,6 +74,7 @@
             '<td>'. '<img src="./img/gerichte/'.$bildpfad.'" witdh="60" height="80" alt="Foto">' .'</td>',
             '<td style="text-align: right">'.$row['preis_intern']."€"." "." ".'</td>',
             '<td style="text-align: right">'.$row['preis_extern']."€".'</td>',
+
         '</tr>';
     }
     echo '</table>';
