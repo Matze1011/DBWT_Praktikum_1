@@ -23,11 +23,9 @@
             <label for = "gericht">Gericht auswählen</label>
             <br>
             <select class="gericht_select" name="gericht_bild" id="gericht_bild">
+                <option value="not selected" selected>Bitte auswählen</option>
                 @foreach($data as $a)
-
-                    <option value={{$a['bildname']}} selected>{{$a['name']}} </option>
-
-
+                    <option value={{$a['bildname']}} >{{$a['name']}} </option>
                 @empty
                     @endforelse
             </select>

@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="Meilenstein 6:&#10;Aufgabe 1 angefangen">
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m6_a1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m6_a1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" afterDir="false" />
     </list>
@@ -169,7 +166,8 @@
       <workItem from="1610640093597" duration="2314000" />
       <workItem from="1610642470254" duration="45000" />
       <workItem from="1610642528663" duration="115000" />
-      <workItem from="1610642810475" duration="15952000" />
+      <workItem from="1610642810475" duration="18600000" />
+      <workItem from="1610671201017" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -311,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610651946246</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Meilenstein 6:&#10;Aufgabe 1 angefangen2">
+      <created>1610664333909</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610664333909</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +368,8 @@
     <MESSAGE value="Meilenstein 5:&#10;Aufgabe 1 und 2 fertig" />
     <MESSAGE value="Meilenstein 5:&#10;Alles fertig!" />
     <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 angefangen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Aufgabe 1 angefangen" />
+    <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 angefangen2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Aufgabe 1 angefangen2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
