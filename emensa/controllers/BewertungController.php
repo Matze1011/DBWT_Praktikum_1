@@ -1,71 +1,76 @@
 <?php
 require_once('../models/gericht.php');
 require_once('../models/kategorie.php');
+require_once('../models/bewertung.php');
+require_once('../models/gericht_orm.php');
+require_once('../models/bewertung_orm.php');
+use \Illuminate\Database\Capsule\Manager as DB;
 
 class BewertungController
 {
-    public function index(RequestData $rd)
+    public function index()
     {
         $login_status = $_SESSION['login_ok'] ?? false;
-
-            $data = db_gericht_all_names();
+        if ($login_status==false)
+        {
+            header('Refresh: 0; URL=/login');
+        }
+        else
+        {
             $dataFromDB = bew();
 
-            //$i = (int) $_GET['gerichtid'];
-            $nameVonGericht = new GerichtAR;
-            // $name = $nameVonGericht->getNameAttribute($i);
-            $name = $nameVonGericht->name;
-            // var_dump($name);
-            // var_dump($i);
-            // $gericht = GerichtAR::find($i);
-            //$nameVonGericht = $gericht->attributes['name'];
-            //var_dump($nameVonGericht);
-            return view('bewertung', ['data' => $data, 'dataFromDB' => $dataFromDB, 'name' => $name]);
+            if ($dataFromDB!=NULL)
+            {
+                //$i = (int) $_GET['gerichtid'];
+                $nameVonGericht = new GerichtAR;
+                // $name = $nameVonGericht->getNameAttribute($i);
+                $name = $nameVonGericht->name;
+                // var_dump($name);
+                // var_dump($i);
+                // $gericht = GerichtAR::find($i);
+                //$nameVonGericht = $gericht->attributes['name'];
+                //var_dump($nameVonGericht);
+                return view('bewertung', ['dataFromDB'=>$dataFromDB,'name'=>$name]);
+            }
+            else
+            {
+                $_SESSION['gericht_error'] = "The Gericht you are trying to access is not on our menu";
+                header('Refresh: 0; URL=/');
+            }
+
+        }
     }
 
-    public function bewertung_abgeben(RequestData $rd){
+    public function store()
+    {
+        $userID = $_SESSION['User']['id'];
+        $gerichtid = $_POST["gerichtID"];
+        $text = $_POST["bemerkung"];
+        $stars = $_POST["bewertung"];
 
-            $user = $_SESSION['username'];
-            $gerichtid = $_POST["gerichtID"];
-            $text = $_POST["textarea"];
-            $stars = $_POST["bewertung"];
 
+        $neues_rev = new BewertungAR();
+        $neues_rev->userID = $userID;
+        $neues_rev->gericht_id = $gerichtid;
+        $neues_rev->bemerkung = $text;
+        $neues_rev->sternebewertung = $stars;
+        //$neues_rev->bewertungszeitpunkt = CURRENT_TIMESTAMP();
+        $neues_rev->save();
 
-            $neues_rev = new BewertungAR();
-            $neues_rev->user_id = $user;
-            $neues_rev->dish_id = $gerichtid;
-            $neues_rev->review_text = $text;
-            $neues_rev->review_rating = $stars;
-            $neues_rev->save();
-
-            //$data = bew_senden();
-            $_SESSION['review_success'] = "Review was posted!";
-            header('Refresh: 0; URL=/');
-    }
-
-    public function bewertung_gericht_ausgesucht(RequestData $rd){
-        $data = db_gericht_all_names();
-        $gericht_id = $_POST['gericht_id'];
-        $data2 = db_gericht_ausgewähltes_gericht($gericht_id);
-        return view('bewertung',['data'=>$data,
-                                 'data2'=>$data2]);
+       // $data = bew_senden();
+        $_SESSION['review_success'] = "Bewertung gesendet!";
+        header('Refresh: 0; URL=/');
 
     }
-
-    public function gerichte_anzeigen(RequestData $rd){
-        $data = db_gericht_all_names();
-        return view('bewertung',['data'=>$data]);
-    }
-
     public function bew_zeigen()
     {
         $data = bew_zeigen();
-        return view('werbeseite.bewertungen', ['data'=>$data]);
+        return view('bewertungen', ['data'=>$data]);
     }
     public function meine_bew()
     {
         $data = meine_bew_models();
-        return view('werbeseite.meinebewertungen', ['data'=>$data]);
+        return view('meinebewertungen', ['data'=>$data]);
     }
     public function loschen_bew()
     {

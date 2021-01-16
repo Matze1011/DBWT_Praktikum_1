@@ -20,16 +20,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/emensa/models/bewertung.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_bewertung.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m6_a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/config/orm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/models/bewertung_orm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/models/gericht_orm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/models/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/bewertungen.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/meinebewertungen.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Database/Eloquent/DeviatesCastableAttributes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Database/Eloquent/SerializesCastableAttributes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Filesystem/LockTimeoutException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Queue/ClearableQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Queue/ShouldBeEncrypted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Queue/ShouldBeUnique.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/contracts/Queue/ShouldBeUniqueUntilProcessing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Concerns/ExplainsQueries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Console/DbCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Console/DumpCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/DBAL/TimestampType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/DatabaseTransactionRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/DatabaseTransactionsManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/BelongsToManyRelationship.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/BelongsToRelationship.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/HasFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/Relationship.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Factories/Sequence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/InvalidCastException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Eloquent/Relations/Concerns/ComparesRelatedModels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Events/DatabaseRefreshed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Events/SchemaDumped.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Events/SchemaLoaded.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/Concerns/ConnectsToDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/MySqlDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/PostgresDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/SQLiteDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/SqlServerConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/PDO/SqlServerDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Schema/MySqlSchemaState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Schema/PostgresSchemaState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Schema/SchemaState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/database/Schema/SqliteSchemaState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/support/Facades/RateLimiter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/support/Testing/Fakes/BatchRepositoryFake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/support/Testing/Fakes/PendingBatchFake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/vendor/illuminate/support/Testing/Fakes/PendingChainFake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/bewertungen.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/meinebewertungen.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/.php_cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/BladeOneCache.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/BladeOneHtml.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/BladeOneLang.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/BladeOneLogic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneCacheRedis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneCustom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneHtml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneHtmlBootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/lib/BladeOneLang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/phpcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/eftec/bladeone/readme.template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/E-Mensa Werbeseite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-Mensa Werbeseite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m6_a1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m6_a1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/models/bewertung.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/bewertung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/models/gericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/models/gericht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/login.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/bewertung.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +159,28 @@
       <path value="$PROJECT_DIR$/emensa/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/emensa/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/emensa/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/emensa/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/emensa/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/emensa/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/emensa/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/emensa/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/emensa/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/emensa/vendor/illuminate/collections" />
     </include_path>
   </component>
   <component name="ProjectId" id="1j6eYeHgcFJqVqPpeA3koL5Wmia" />
@@ -86,9 +199,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/public/css" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -96,16 +209,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\models" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\models" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\img\gerichte" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\m6_a1.jpeg" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\config" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views" />
       <recent name="$PROJECT_DIR$/emensa/models" />
-      <recent name="$APPLICATION_CONFIG_DIR$/consoles/db" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite\img" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Demo">
@@ -176,7 +290,10 @@
       <workItem from="1610642528663" duration="115000" />
       <workItem from="1610642810475" duration="18600000" />
       <workItem from="1610671201017" duration="5445000" />
-      <workItem from="1610710997995" duration="7210000" />
+      <workItem from="1610710997995" duration="12704000" />
+      <workItem from="1610724394000" duration="17653000" />
+      <workItem from="1610743225381" duration="65000" />
+      <workItem from="1610808609622" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -332,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610671595734</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Meilenstein 6:&#10;Tabelle Hauptseite funktioniert grad">
+      <created>1610718890289</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610718890289</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +510,8 @@
     <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 angefangen" />
     <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 angefangen2" />
     <MESSAGE value="Meilenstein 6:&#10;Aufgabe 1 funktioniert grad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Aufgabe 1 funktioniert grad" />
+    <MESSAGE value="Meilenstein 6:&#10;Tabelle Hauptseite funktioniert grad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Tabelle Hauptseite funktioniert grad" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

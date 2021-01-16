@@ -1,8 +1,8 @@
 <?php
 require_once('../config/db.php');
 require_once('../models/index.php');
-require_once('../models/GerichtAR.php');
-require_once('../models/BewertungAR.php');
+require_once('../models/gericht_orm.php');
+require_once('../models/bewertung_orm.php');
 function bew()
 {
     $link = connectdb();
@@ -34,25 +34,12 @@ function bew_senden()
 
     $user_id = $_SESSION['User']['id'];
     $gerichtid = $_POST["gerichtID"];
-    $text = htmlspecialchars($_POST["textarea"]);
-    //$stars = $_POST["stars"];
+    $text = htmlspecialchars($_POST["bemerkung"]);
     $stars = $_POST["bewertung"];
 
-   // var_dump($user_id);
-   // var_dump($gerichtid);
-   // var_dump($text);
-   // var_dump($stars);
-
-   // $user_id = $_SESSION['User']['id'];
-    //$gerichtid = $_POST["gerichtID"];
-   // $text = $_POST["textarea"];
-    //$bew = $_POST["bewertung"];
-    //var_dump($bew);
-
-    //var_dump($stars);
 
     $link = connectdb();
-    $query = "INSERT INTO reviews (user_id, dish_id,review_text,review_rating) VALUES ('$user_id','$gerichtid','$text','$stars')";
+    $query = "INSERT INTO bewertung (userID, gericht_id,bemerkung,sternebewertung) VALUES ('$user_id','$gerichtid','$text','$stars')";
 
     if (mysqli_query($link, $query)) {
       //  echo "New record created successfully REVIEW";
@@ -84,7 +71,7 @@ mysqli_close($link);*/
 function bew_zeigen()
 {
     $link = connectdb();
-    $query = "SELECT * FROM reviews ORDER BY date DESC LIMIT 30;";
+    $query = "SELECT * FROM bewertung ORDER BY id DESC LIMIT 30;";
     $result = mysqli_query($link, $query);
     $review_data = mysqli_fetch_all($result,MYSQLI_ASSOC);
 
@@ -95,7 +82,7 @@ function meine_bew_models()
 {
     $link = connectdb();
     $usersID = $_SESSION['User']['id'];
-    $query = "SELECT * FROM reviews WHERE user_id = ". $usersID ." ORDER BY date DESC LIMIT 30;";
+    $query = "SELECT * FROM bewertung WHERE userID = ". $usersID ." ORDER BY id DESC LIMIT 30;";
     $result = mysqli_query($link, $query);
     $review_data = mysqli_fetch_all($result,MYSQLI_ASSOC);
 
@@ -114,15 +101,12 @@ function loeschen()
 
 
 
-    $query = "SELECT * FROM reviews WHERE id = '$reviewID' ";
+    $query = "SELECT * FROM bewertung WHERE id = '$reviewID' ";
     $result = mysqli_query($link, $query);
 
     $review_data = mysqli_fetch_all($result,MYSQLI_ASSOC);
 
-    //var_dump($review_data[0]["id"]);
-   // var_dump($reviewID);
-   // var_dump($usersID);
-    if ($usersID === $review_data[0]["user_id"])
+    if ($usersID === $review_data[0]["userID"])
     {
 
         //loeschen

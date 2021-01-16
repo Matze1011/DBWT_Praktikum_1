@@ -4,10 +4,13 @@ const PUBLIC_DIRNAME = "public";
 const CONFIG_WEBROUTES = '../config/web.php';
 const CONFIG_DB = '../config/db.php';
 require_once $_SERVER['DOCUMENT_ROOT']."/../vendor/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/../config/orm.php";
+
 use eftec\bladeone\BladeOne;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\FirePHPHandler;
+
 
 /* Routing Script for PHP Dev Server */
 $verbosity = 0;

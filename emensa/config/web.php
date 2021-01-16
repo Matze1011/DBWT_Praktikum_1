@@ -13,10 +13,15 @@ return array(
     "/login"       => "AuthController@index",
     "/logout"      => "AuthController@logout",
     "/check_login" => "AuthController@check",
-    "/bewertung" => "BewertungController@index",
     "/bewertung_abgeben" => "BewertungController@bewertung_abgeben",
     "/bewertung_gericht_ausgesucht" => "BewertungController@bewertung_gericht_ausgesucht",
-
+    '/bewertung' => 'BewertungController@index',
+    '/bewertung_senden'=> 'BewertungController@store',
+    '/bewertungen'=> 'BewertungController@bew_zeigen',
+    '/meinebewertungen'=> 'BewertungController@meine_bew',
+    '/loeschen_bewertungen'=> 'BewertungController@loschen_bew',
+    '/hervorheben'=> 'BewertungController@hervorheben',
+    '/hervorhebung_abwaehlen'=> 'BewertungController@hervorhebung_abwaehlen',
 
     // Erstes Beispiel:
     //Pfad zur jeweiligen Mehtode angeben mittels @

@@ -132,6 +132,11 @@ input:disabled {
     border: #40BEA9 SOLID 2PX;
 }
 
+.hervorheben{
+    color : #40BEA9;
+    text-decoration-color: #40BEA9;
+}
+
 
 
 

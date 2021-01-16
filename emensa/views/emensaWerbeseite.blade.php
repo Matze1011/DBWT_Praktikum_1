@@ -3,11 +3,11 @@
 @section('title', 'EMensa Werbeseite')
 
 @section('navbar')
-    @if($login_status == true){{ 'Angemeldet als: '. $user }}
+    @if($login_status == true){{ 'Angemeldet als: '. $_SESSION['User']['email'] }}
     @endif
     <!--Navbar oben mit Links-->
     <nav class="topnav">
-        <img id= "logo" src="./img/logo-FH%20(1).png" height="20" alt="FH Logo">
+        <img id= "logo" src="./img/logo-FH%20(1).png" height="15" alt="FH Logo">
         <a href="#ankündigung">Speisen</a>
         <a href="#preis-tabelle">Preise</a>
         <a href="#zahlen-mensa">Zahlen</a>
@@ -16,7 +16,7 @@
         <a href="wunschgericht.php">Wunschgericht</a>
 
         @if($login_status==true)
-            <a href="/bewertung">Bewertungen</a>
+            <a href="/bewertungen">Bewertungen</a>
         @else
             <a href="/login">Bewertungen</a>
         @endif
@@ -34,6 +34,8 @@
     <img id= "logo-mensa" src="./img/MenaBild.jpg" width="800"  alt="Mensa-Logo">
     <br>
     <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
+
+    @if (isset($_SESSION['User'])) <a href="/meinebewertungen" >Meine Bewertungen</a> @endif
 @endsection
 
 @section('main')
@@ -42,46 +44,25 @@
     <br>
     <h2>Preise unserer Köstlichkeiten</h2>
     <!--Tabelle für die Preise -->
-    <?php
-    $link = mysqli_connect(
-        "127.0.0.1", // Host der Datenbank
-        "root", // Benutzername zur Anmeldung
-        "Matze0021", // Passwort zur Anmeldung
-        "emensawerbeseite"); // Auswahl der Datenbank
 
-    mysqli_set_charset($link, "utf8");
 
-    if (!$link) {
-        echo "Verbindung fehlgeschlagen: ", mysqli_connect_error();
-        exit();
-    }
-    //Tabelle der Preise und Gerichte mittels Datenbank:
-    $sql =  "SELECT gericht.name,gericht.bildname,gericht.preis_intern, gericht.preis_extern, group_concat(allergen.code)
-                        FROM gericht
-                        LEFT JOIN gericht_hat_allergen ON gericht.id=gericht_hat_allergen.gericht_id
-                        LEFT JOIN allergen ON allergen.code=gericht_hat_allergen.code
-                        GROUP BY gericht.name
-                        ORDER BY gericht.name ASC LIMIT 5";
-    $result = mysqli_query($link, $sql);
-    echo '<table id="preis-tabelle" style="background-color:#40BEA9">';
-    echo     '<tr style="background-color: #40BEA9;color: white">
+
+    <table id="preis-tabelle" style="background-color:#40BEA9">
+    <tr style="background-color: #40BEA9;color: white">
          <th> </th><th>Bild</th><th style="text-align: left">Preis intern</th><th style="text-align: left">Preis extern</th><th style="text-align: left">Bewertung</th>
-         </tr>';
-    while ($row = mysqli_fetch_assoc($result)) {
-        $bildpfad = $row['bildname'];
-        echo '<tr style="background-color: white">',
-            '<td style="text-align: left">'.$row['name']."<br>"."Allergene:(".$row['group_concat(allergen.code)'].")".'</td>',
-            '<td>'. '<img src="./img/gerichte/'.$bildpfad.'" witdh="60" height="80" alt="Foto">' .'</td>',
-            '<td style="text-align: right">'.$row['preis_intern']."€"." "." ".'</td>',
-            '<td style="text-align: right">'.$row['preis_extern']."€".'</td>',
+    </tr>
+        @foreach ($gerichte as $Gericht)
+        <tr style="background-color: white">
+            <td style="text-align: left">{{$Gericht["name"]}}<br> {{'Allergene:' .$Gericht['group_concat(allergen.code)']}} </td>
+            <td> <img src="./img/gerichte/{{$Gericht["bildname"]}}" witdh="60" height="80" alt="Foto"> </td>
+            <td style="text-align: right">{{number_format ($Gericht['preis_intern'], 2, ",", ".")}} €</td>
+            <td style="text-align: right">{{number_format ($Gericht['preis_extern'], 2, ",", ".")}} €</td>
+            <td style="text-align: center;"><a @if ($login_status==true)href="/bewertung?gerichtid={{$Gericht["id"]}}" @else href="/bewertung" @endif>Bewertung abgeben</a></td>
+        </tr>
+        @endforeach
+    </table>
 
-        '</tr>';
-    }
-    echo '</table>';
-    //Verbindung schließen und Speicher wieder freigeben
-    mysqli_free_result($result);
-    mysqli_close($link);
-    ?>
+
     <br>
     <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
     <ul id="mensa-zahlen">

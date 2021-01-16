@@ -23,28 +23,35 @@
     <div class="mitte-inhalt">
         <img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo">
         <br>
-        <h2 id="login_begrüßung"> Bitte bewerten Sie ein Gericht:</h2>
+        <h2 id="login_begrüßung"> Bitte bewerten Sie das Gericht:</h2>
+        <b>{{$name}}</b>
 
-        <form action="/bewertung_gericht_ausgesucht" method="post" id = "bewertung_formular">
+        <br><br>
+
+        @if($dataFromDB["bildname"]!=NULL)
+            <td> <img  alt="No image" width="150" height="150" src="/img/gerichte/{{$dataFromDB["bildname"]}}"></td>
+        @else
+            <td> <img  alt="No image" width="300" height="150" src="/img/gerichte/00_image_missing.jpg"></td>
+        @endif
+
+       {{-- <form action="/bewertung_gericht_ausgesucht" method="post" id = "bewertung_formular">
             <label for = "gericht">Gericht auswählen</label>
             <select class="gericht_select" name="gericht_id" id="gericht_id">
                 <option value="not selected" selected>Bitte auswählen</option>
                 @foreach($data as $a)
                     <option value={{$a['id']}} >{{$a['name']}} </option>
+                    @if(isset($_POST['gericht_id']))
+                        <option value={{$a['gericht_id']}}>{{$a['name']}}</option>
+                    @endif
                     @endforeach
             </select>
             <input id="submit" type="submit" name="submit" value="auswählen">
             <br>
             <br>
         </form>
+--}}
 
-            @if($_POST['gericht_id']!= null)
-            @foreach($data2 as $b)
-                <img src="./img/gerichte/{{$b['bildname']}}" witdh="400" height="200" alt="Foto">
-                <br>
-
-
-                <form action="bewertung_abgeben" method="POST">
+                <form action="bewertung_senden" method="POST">
                     <input type="hidden" name="gerichtID" id="gerichtID" value="{{$dataFromDB["id"]}}">
                     <div id="content1" class=".vert">Bewerten sie das Produkt: </div>
                     <div onmouseleave="starsOut()" class="d-inline"><span class="sternebewertung">
@@ -108,9 +115,6 @@
                         crossorigin="anonymous">
                 </script>
 
-                    @endforeach
-            @else
-        @endif
 
 
     </div>

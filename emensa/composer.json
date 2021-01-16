@@ -4,6 +4,7 @@
         "eftec/bladeone": "^3.47",
       "ext-mysqli": "*",
       "monolog/monolog": "2.0.*",
-      "guzzlehttp/guzzle": "^7"
+      "guzzlehttp/guzzle": "^7",
+        "illuminate/database": "^8.22"
     }
 }
