@@ -34,8 +34,8 @@ class BewertungController
             }
             else
             {
-                $_SESSION['gericht_error'] = "The Gericht you are trying to access is not on our menu";
-                header('Refresh: 0; URL=/');
+                $_SESSION['gericht_error'] = "Diese Gericht existiert nicht";
+                //header('Refresh: 0; URL=/');
             }
 
         }

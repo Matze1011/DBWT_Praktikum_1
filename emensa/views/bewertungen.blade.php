@@ -3,9 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" charset="utf-8" />
     <title>Bewertungen</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/stylesheet_werbeseite.css" media="screen" />
-    <link rel="stylesheet" href="../public/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet_werbeseite.css" media="screen" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
@@ -43,7 +44,8 @@
         @if($dat['is_pinned']==1)
             {{$_SESSION['hervorheben']}}
             <p style="color:green">NUMMER: {{++$i}}</p>
-            <p style="color:green">{{$dat["bemerkung"]}}</p> <p>{{$dat["bewertungszeitpunkt"]}}</p>
+            <p style="color:green">{{$dat["bemerkung"]}}</p>
+            <p>{{$dat["bewertungszeitpunkt"]}}</p>
             <p style="color:green">ZU GERICHT: {{$dat["gericht_id"]}}</p>
             @if($dat["sternebewertung"] == "1")
                 <span class="fa fa-star checked"></span>

@@ -9,7 +9,7 @@
 
 <body>
 <header>
-    <div id="grid-container1">
+    <div id="grid-container1" class = "flex-container">
         <div class="links>"></div>
         <div class="mitte-inhalt">
     @section('navbar')
@@ -18,7 +18,7 @@
         <div class="rechts"></div>
     </div>
 </header>
-<div id="grid-container1">
+<div id="grid-container1" class = "flex-container">
     <div class="links>"></div>
     <div class="mitte-inhalt">
         @section('Begrüßung')
@@ -27,7 +27,7 @@
     <div class="rechts"></div>
 </div>
 <main>
-    <div id="grid-container1">
+    <div id="grid-container1" class = "flex-container">
         <div class="links>"></div>
         <div class="mitte-inhalt">
         @section('main')

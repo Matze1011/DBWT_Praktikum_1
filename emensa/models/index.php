@@ -12,16 +12,12 @@ function vorbereitung()
 
 
     $Gerichte = mysqli_fetch_all(mysqli_query($link,
-        " select g.*,
-                            group_concat(a.code separator ', ') as codes,
-                            group_concat(a.name separator ', ') as Allergene
-                            FROM gericht g
-                            left join gericht_hat_allergen ha
-                            ON ha.gericht_id = g.id
-                            left join allergen a
-                            ON ha.code = a.code
-                            GROUP BY g.id
-                            ORDER BY g.id ASC LIMIT 5;
+        "SELECT gericht.name,gericht.bildname,gericht.preis_intern, gericht.preis_extern,gericht.id, group_concat(allergen.code)
+                        FROM gericht
+                        LEFT JOIN gericht_hat_allergen ON gericht.id=gericht_hat_allergen.gericht_id
+                        LEFT JOIN allergen ON allergen.code=gericht_hat_allergen.code
+                        GROUP BY gericht.name
+                        ORDER BY gericht.name ASC LIMIT 5;
                             "), MYSQLI_ASSOC);
 
     mysqli_close($link);

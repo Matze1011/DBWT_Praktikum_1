@@ -20,10 +20,7 @@
 }
 
 #submit-button_bewertung{
-   color: #40BEA9;
-    margin-right: 30px;
-    margin-left: 0px;
-    margin-top: 30px;
+    color: #40BEA9;
 }
 
 #submit{
@@ -32,4 +29,33 @@
 
 #bemerkung_rahmen{
     border: hidden;
+}
+
+#gericht_titel{
+    color: #005cbf;
+}
+
+.flex-container{
+
+    display: flex;
+    flex-direction:row;
+    margin-left: 180px;
+
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-self: center;
+        align-content: center;
+        margin-right: 150px;
+    }
+}
+
+#abschicken_rechts{
+    float: right;
+}
+
+#bemerkungsfeld{
+
 }

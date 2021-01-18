@@ -3,6 +3,7 @@ require_once('../config/db.php');
 require_once('../models/index.php');
 require_once('../models/gericht_orm.php');
 require_once('../models/bewertung_orm.php');
+
 function bew()
 {
     $link = connectdb();
@@ -42,7 +43,7 @@ function bew_senden()
     $query = "INSERT INTO bewertung (userID, gericht_id,bemerkung,sternebewertung) VALUES ('$user_id','$gerichtid','$text','$stars')";
 
     if (mysqli_query($link, $query)) {
-      //  echo "New record created successfully REVIEW";
+
     } else {
         echo "Error: " . $query . "<br>" . mysqli_error($link);
     }
@@ -52,21 +53,6 @@ function bew_senden()
 
 }
 
-/*$user_id = $_SESSION['User']['id'];
-$gerichtid = $_POST["gerichtID"];
-$text = $_POST["textarea"];
-$start = $_POST["stars"];
-
-$link = connectdb();
-$query = "INSERT INTO reviews (`user_id`, `dish_id`,`review_text`,`review_rating`) VALUES (,,,)";
-
-if (mysqli_query($link, $query)) {
-    echo "New record created successfully REVIEW";
-} else {
-    echo "Error: " . $query . "<br>" . mysqli_error($link);
-}
-
-mysqli_close($link);*/
 
 function bew_zeigen()
 {
@@ -165,7 +151,6 @@ function two()
     $query_benutzer = "SELECT admin FROM benutzer WHERE id = '$usersID'";
     $result0 = mysqli_query($link, $query_benutzer);
     $admin = mysqli_fetch_assoc($result0);
-    //var_dump($admin['admin']);
     if ($admin['admin'] === "1")
     {
         $makierenAr = new BewertungAR;
@@ -174,8 +159,8 @@ function two()
         $m->is_pinned = 0;
         $m->save();
 
-        //$query = "UPDATE reviews SET is_pinned = 0 WHERE id = '$reviewID' ";
-       // $result = mysqli_query($link, $query);
+        //$query = "UPDATE bewertung SET is_pinned = 0 WHERE id = '$reviewID' ";
+        //$result = mysqli_query($link, $query);
         $flag = true;
     }else{
         $flag = false;

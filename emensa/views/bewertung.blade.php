@@ -6,14 +6,15 @@
 -->
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" charset="UTF-8">
     {{--Für Styling --}}
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/stylesheet_werbeseite.css">
     <link rel="stylesheet" href="./css/stylesheet_bewertung.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
     {{-- Für die mobile Ansicht --}}
-    <meta content="width=device-width, initial-scale=1" name="viewport" charset="utf-8" />
+
     <title>Bewertungen Formular</title>
     <title>Bewertung unserer Gerichte</title>
 </head>
@@ -21,12 +22,11 @@
 <div id="grid-container1">
     <div class="links>"></div>
     <div class="mitte-inhalt">
-        <img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo">
-        <br>
-        <h2 id="login_begrüßung"> Bitte bewerten Sie das Gericht:</h2>
-        <b>{{$name}}</b>
+        <div><img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo"></div>
+        <div><h2 id="login_begrüßung"> Bitte bewerten Sie das Gericht:</h2></div>
+        <p id = "gericht_titel"><b>{{$dataFromDB['name']}}</b></p>
 
-        <br><br>
+        <br>
 
         @if($dataFromDB["bildname"]!=NULL)
             <td> <img  alt="No image" width="150" height="150" src="/img/gerichte/{{$dataFromDB["bildname"]}}"></td>
@@ -34,22 +34,6 @@
             <td> <img  alt="No image" width="300" height="150" src="/img/gerichte/00_image_missing.jpg"></td>
         @endif
 
-       {{-- <form action="/bewertung_gericht_ausgesucht" method="post" id = "bewertung_formular">
-            <label for = "gericht">Gericht auswählen</label>
-            <select class="gericht_select" name="gericht_id" id="gericht_id">
-                <option value="not selected" selected>Bitte auswählen</option>
-                @foreach($data as $a)
-                    <option value={{$a['id']}} >{{$a['name']}} </option>
-                    @if(isset($_POST['gericht_id']))
-                        <option value={{$a['gericht_id']}}>{{$a['name']}}</option>
-                    @endif
-                    @endforeach
-            </select>
-            <input id="submit" type="submit" name="submit" value="auswählen">
-            <br>
-            <br>
-        </form>
---}}
 
                 <form action="bewertung_senden" method="POST">
                     <input type="hidden" name="gerichtID" id="gerichtID" value="{{$dataFromDB["id"]}}">
@@ -64,11 +48,14 @@
                           <label  for="stern4" title="4"><i onmouseover="stars(this)" id="stern4stern" class="far fa-star fa-lg mr-n1"></i></label>
                             <input type="radio" id="stern4" name="bewertung" value="4">
                         </span>
-                            <fieldset id = "bemerkung_rahmen">
+                        <br>
+                        <br>
+                        <div class ="flex-container">
+                            <div class="links"></div>
                             <label class ="bewertung_label" for ="bemerkung"></label>
-                            <textarea id="bemerkung" name="bemerkung" cols = "47" rows ="5"  required placeholder="Bitte Bemerkung eingeben"></textarea>
-                            <input type = "submit" id = "submit-button_bewertung" name = "submit" value="Abschicken">
-                            </fieldset>
+                                <div id ="bemerkungsfeld"><textarea id="bemerkung" name="bemerkung" cols = "47" rows ="5"  required placeholder="Bitte Bemerkung eingeben"></textarea></div>
+                                <div id ="abschicken_rechts"><input type = "submit" id = "submit-button_bewertung" name = "submit" value="Abschicken"></div>
+                        </div>
                     </div>
                 </form>
 
