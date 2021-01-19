@@ -20,7 +20,9 @@
 <div id="grid-container1">
     <div class="links>"></div>
     <div class="mitte-inhalt">
+        <a href="/">Home</a>
         <div><img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo"></div>
+
 <h2>30 Bewertungen</h2>
 <p style="color:orange">
     @if(isset( $_SESSION['hervorhebung_abwaehlen']))

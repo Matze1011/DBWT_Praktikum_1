@@ -19,6 +19,7 @@
 <div id="grid-container1">
     <div class="links>"></div>
     <div class="mitte-inhalt">
+        <a href="/">Home</a>
 <div><img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo"></div>
 <h2>Meine Bewertungen</h2>
 
