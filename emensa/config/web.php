@@ -19,6 +19,7 @@ return array(
     '/bewertung_senden'=> 'BewertungController@store',
     '/bewertungen'=> 'BewertungController@bew_zeigen',
     '/meinebewertungen'=> 'BewertungController@meine_bew',
+    '/pinned_bewertungen' => 'BewertungController@pinned_bewertungen_anzeigen',
     '/loeschen_bewertungen'=> 'BewertungController@loschen_bew',
     '/hervorheben'=> 'BewertungController@hervorheben',
     '/hervorhebung_abwaehlen'=> 'BewertungController@hervorhebung_abwaehlen',

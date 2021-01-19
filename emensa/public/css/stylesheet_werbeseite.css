@@ -4,6 +4,7 @@
     grid-template-columns: minmax(150px,700px) minmax(750px,800px) minmax(150px,700px);
     text-align: center;
     justify-content: center;
+    font-family: Arial;
 }
 
 .grid-container3{
@@ -139,6 +140,15 @@ input:disabled {
 
 .flex-container{
     display: flex;
+}
+
+h2{
+    font-family: "Calibri";
+    font-weight: normal;
+}
+
+#navbarElemente{
+    padding-left: 80px;
 }
 
 

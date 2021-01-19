@@ -14,18 +14,20 @@
         <a href="#kontakt">Kontakt</a>
         <a href="#wichtig">Wichtig für uns</a>
         <a href="wunschgericht.php">Wunschgericht</a>
+        @if($login_status==false)
+            <a href= "/login">Login</a>
+        @else
+            <a href="/logout">Logout</a>
+        @endif
+        <div id="navbarElemente"> @if (isset($_SESSION['User'])) <a href="/meinebewertungen" >Meine Bewertungen</a> @endif
 
         @if($login_status==true)
             <a href="/bewertungen">Bewertungen</a>
         @else
             <a href="/login">Bewertungen</a>
         @endif
-
-        @if($login_status==false)
-        <a href= "/login">Login</a>
-            @else
-        <a href="/logout">Logout</a>
-            @endif
+            <a href="/pinned_bewertungen">Beste Bewertungen</a>
+        </div>
     </nav>
 @endsection
 
@@ -33,15 +35,12 @@
     <!-- Großes Mensa Bild -->
     <img id= "logo-mensa" src="./img/MenaBild.jpg" width="800"  alt="Mensa-Logo">
     <br>
-    <h2 id="ankündigung"> Bald gibt es Essen auch online;)</h2>
+    <h2 id="ankündigung"> Bald gibt es Essen auch online</h2>
 
-    @if (isset($_SESSION['User'])) <a href="/meinebewertungen" >Meine Bewertungen</a> @endif
 @endsection
 
 @section('main')
-    <p>
-    </p>
-    <br>
+
     <h2>Preise unserer Köstlichkeiten</h2>
     <!--Tabelle für die Preise -->
 
@@ -54,7 +53,7 @@
         @foreach ($gerichte as $Gericht)
         <tr style="background-color: white">
             <td style="text-align: left">{{$Gericht["name"]}}<br> {{'Allergene:' .$Gericht['group_concat(allergen.code)']}} </td>
-            <td> <img src="./img/gerichte/{{$Gericht["bildname"]}}" witdh="60" height="80" alt="Foto"> </td>
+            <td> <img src="./img/gerichte/{{$Gericht["bildname"]}}" width="90" height="80" alt="Foto"> </td>
             <td style="text-align: right">{{number_format ($Gericht['preis_intern'], 2, ",", ".")}} €</td>
             <td style="text-align: right">{{number_format ($Gericht['preis_extern'], 2, ",", ".")}} €</td>
             <td style="text-align: center;"><a @if ($login_status==true)href="/bewertung?gerichtid={{$Gericht["id"]}}" @else href="/bewertung" @endif>Bewertung abgeben</a></td>

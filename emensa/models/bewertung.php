@@ -49,10 +49,16 @@ function bew_senden()
     }
 
     mysqli_close($link);
-
-
 }
 
+function pinned_bewertungen()
+{
+    $link = connectdb();
+    $query = "SELECT * FROM bewertung  ORDER BY created_at DESC";
+    $result = mysqli_query($link, $query);
+    $review_data = mysqli_fetch_all($result,MYSQLI_ASSOC);
+    return $review_data;
+}
 
 function bew_zeigen()
 {

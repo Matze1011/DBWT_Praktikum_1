@@ -15,7 +15,6 @@
 
     {{-- Für die mobile Ansicht --}}
 
-    <title>Bewertungen Formular</title>
     <title>Bewertung unserer Gerichte</title>
 </head>
 <body>
@@ -37,7 +36,7 @@
 
                 <form action="bewertung_senden" method="POST">
                     <input type="hidden" name="gerichtID" id="gerichtID" value="{{$dataFromDB["id"]}}">
-                    <div id="content1" class=".vert">Bewerten sie das Produkt: </div>
+                    <div id="content1" class=".vert">Bewerten Sie das Produkt: </div>
                     <div onmouseleave="starsOut()" class="d-inline"><span class="sternebewertung">
                           <label  for="stern1" title="1"><i onmouseover="stars(this)" id="stern1stern" class="fas fa-star fa-lg mr-n1 "></i></label>
                             <input type="radio" id="stern1" name="bewertung" value="1" checked required>

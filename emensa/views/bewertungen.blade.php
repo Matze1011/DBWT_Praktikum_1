@@ -16,7 +16,12 @@
     </style>
 </head>
 <body>
-<h1>30 Bewertungen</h1>
+
+<div id="grid-container1">
+    <div class="links>"></div>
+    <div class="mitte-inhalt">
+        <div><img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo"></div>
+<h2>30 Bewertungen</h2>
 <p style="color:orange">
     @if(isset( $_SESSION['hervorhebung_abwaehlen']))
         {{$_SESSION['hervorhebung_abwaehlen']}}
@@ -36,17 +41,16 @@
     @endif
 </p>
 
-
 <br>
 
 <?php $i=0 ?>
     @foreach($data as $dat)
         @if($dat['is_pinned']==1)
             {{$_SESSION['hervorheben']}}
-            <p style="color:green">NUMMER: {{++$i}}</p>
-            <p style="color:green">{{$dat["bemerkung"]}}</p>
-            <p>{{$dat["bewertungszeitpunkt"]}}</p>
-            <p style="color:green">ZU GERICHT: {{$dat["gericht_id"]}}</p>
+            <p style="color:green">Nummer: {{++$i}}</p>
+            <p style="color:green">Bemerkung: {{$dat["bemerkung"]}}</p>
+            <p style="color:green">Datum: {{$dat["created_at"]}}</p>
+            <p style="color:green">Zu Gericht: {{$dat["gericht_id"]}}</p>
             @if($dat["sternebewertung"] == "1")
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star"></span>
@@ -70,9 +74,9 @@
             @endif
 
             @else
-            <p>NUMMER: {{++$i}}</p>
-            <p>{{$dat["bemerkung"]}}</p> <p>{{$dat["bewertungszeitpunkt"]}}</p>
-            <p>ZU GERICHT: {{$dat["gericht_id"]}}</p>
+            <p>Nummer: {{++$i}}</p>
+            <p>Bemerkung: {{$dat["bemerkung"]}}</p> <p>{{$dat["created_at"]}}</p>
+            <p>Zu Gericht: {{$dat["gericht_id"]}}</p>
             @if($dat["sternebewertung"] == "1")
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star"></span>
@@ -96,21 +100,23 @@
             @endif
             @endif
 
-
-
             <form action="loeschen_bewertungen" method="POST">
                 <input type="hidden" name="review_id" id="review_id" value="{{$dat["id"]}}">
-                <input type="submit" value="DELETE"/>
+                <input type="submit" value="Löschen"/>
             </form>
             @if(!$dat["is_pinned"] == 1)
                 <a href="/hervorheben?id={{$dat["id"]}}" >Hervorheben</a>
             @else
             <a href="/hervorhebung_abwaehlen?id={{$dat["id"]}}" >Hervorhebung abwählen</a>
+                <br>
             @endif
-        </div>
-        ===========================
-    @endforeach
 
+            <br>
+    @endforeach
+    </div>
+<div class="rechts">
+</div>
+</div>
 
 </body>
 </html>

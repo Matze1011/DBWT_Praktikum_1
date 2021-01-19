@@ -1,15 +1,21 @@
 <?php
-class BewertungAR extends Illuminate\Database\Eloquent\Model{
+use \Illuminate\Database\Capsule\Manager as DB;
+
+class BewertungAR extends Illuminate\Database\Eloquent\Model
+{
     public $table = "bewertung";
     public $primarykey = "id";
-    public $timestamps = false;
+    public $timestamps = true;
     public $incrementing = true;
+    public $sternebewertung = "sternebewertung";
+
 
     function haha($idVonReview)
     {
         $revToDelete = BewertungAR::find($idVonReview);
         return $revToDelete;
     }
+
     function hervorheben($id)
     {
         //var_dump($id);
@@ -18,4 +24,23 @@ class BewertungAR extends Illuminate\Database\Eloquent\Model{
         return $user;
     }
 
+    function getBemerkungAttribute()
+    {
+        return $bemerkung = $this->attributes['bemerkung'];
+    }
+
+    function getSternebwertungAttribute()
+    {
+        return $sternebewertung = $this->attributes['sternebwertung'];
+    }
+
+    function getCreated_atAttribute()
+    {
+        return $created_at = $this->attributes['created_at'];
+    }
+
+    function getUserIDAttribute()
+    {
+        return $userID = $this->attributes['userID'];
+    }
 }

@@ -41,6 +41,16 @@ class BewertungController
         }
     }
 
+    public function pinned_bewertungen_anzeigen(){
+
+        $data = DB::table('bewertung')
+            ->where('is_pinned','=',1)
+            ->orderBy('created_at')
+            ->get();
+
+        return view('pinned_bewertungen',['data'=>$data]);
+    }
+
     public function store()
     {
         $userID = $_SESSION['User']['id'];
