@@ -7,13 +7,13 @@
  */
 
 // Dateiname zum Abspeichern des Zählers
-$datei="../storage/daten/counter.txt";
+$datei="../storage/daten/newsletterZähler.txt";
 
 if(file_exists($datei)){
     // Falls die Datei existiert, wird sie ausgelesen und
     // der dort enthaltene Wert um Eins erhöht.
     $fp = fopen($datei,"r+");
-    $zahl = file_get_contents("../storage/daten/counter.txt");
+    $zahl = file_get_contents("../storage/daten/newsletterZähler.txt");
     $zahl++;
     fwrite($fp,$zahl);
     fclose($fp);
@@ -27,7 +27,7 @@ if(file_exists($datei)){
 }
 
 $fp = fopen($datei,"r+");
-$zahl = file_get_contents("../storage/daten/counter.txt");
+$zahl = file_get_contents("../storage/daten/newsletterZähler.txt");
 
 
 ?>

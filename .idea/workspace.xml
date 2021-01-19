@@ -19,7 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="" />
+    <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/counter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/newsletterZähler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/wunschgericht.bladec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/storage/daten/newsletterDaten.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emensa/views/wunschgericht.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/img/MenaBild.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/counter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/counter.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/wunschgericht.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +115,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/public/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/emensa/public/inlcudes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -107,10 +125,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\inlcudes" />
+      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\werbeseite\img" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\css" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\views" />
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\models" />
-      <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\emensa\public\img\gerichte" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\matze\Desktop\xampp\htdocs\DBWT_Praktikum1\beispiele" />
@@ -197,7 +216,8 @@
       <workItem from="1610931259282" duration="8830000" />
       <workItem from="1610990370053" duration="119000" />
       <workItem from="1611009507452" duration="1008000" />
-      <workItem from="1611018125837" duration="9058000" />
+      <workItem from="1611018125837" duration="9202000" />
+      <workItem from="1611066009488" duration="3161000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -388,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611027285713</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Meilenstein 6:&#10;Fertig zur Abgabe - Kleine Anpassungen">
+      <created>1611027426967</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1611027426967</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Aufgabe 4 angefangen" />
     <MESSAGE value="Aufgabe 5 fast fertig - Abschicken Button fehlt" />
     <MESSAGE value="Aufgabe 6 fertig" />
     <MESSAGE value="Aufgabe 8 fertig" />
@@ -446,7 +472,8 @@
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe- Mobile Ansicht von &quot;bewertung&quot; verbessert" />
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Styling angepasst bei Bewertungen" />
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Home Button geaddet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Fertig zur Abgabe - Home Button geaddet" />
+    <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Kleine Anpassungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Fertig zur Abgabe - Kleine Anpassungen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

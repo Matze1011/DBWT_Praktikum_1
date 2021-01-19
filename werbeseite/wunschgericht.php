@@ -15,6 +15,7 @@
 <div class="grid-container3" >
     <div class="links>"></div>
     <div class="Mitte_Inhalt" style="border: #40BEA9 solid">
+        <div><img id= "logo-mensa" src="./img/MenaBild.jpg" width="600"  alt="Mensa-Logo"></div>
         <p><h3>Bitte erstellen Sie ihr Wunschgericht:</h3></p>
 
         <form  method="post" action="formdata_wunschgericht.php" id="wunschgericht_formular">

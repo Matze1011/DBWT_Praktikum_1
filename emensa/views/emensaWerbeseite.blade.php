@@ -13,7 +13,7 @@
         <a href="#zahlen-mensa">Zahlen</a>
         <a href="#kontakt">Kontakt</a>
         <a href="#wichtig">Wichtig für uns</a>
-        <a href="wunschgericht.php">Wunschgericht</a>
+        <a href="/wunschgericht">Wunschgericht</a>
         @if($login_status==false)
             <a href= "/login">Login</a>
         @else
@@ -56,7 +56,7 @@
             <td> <img src="./img/gerichte/{{$Gericht["bildname"]}}" width="90" height="80" alt="Foto"> </td>
             <td style="text-align: right">{{number_format ($Gericht['preis_intern'], 2, ",", ".")}} €</td>
             <td style="text-align: right">{{number_format ($Gericht['preis_extern'], 2, ",", ".")}} €</td>
-            <td style="text-align: center;"><a @if ($login_status==true)href="/bewertung?gerichtid={{$Gericht["id"]}}" @else href="/bewertung" @endif>Bewertung abgeben</a></td>
+            <td style="text-align: center;"><a @if ($login_status==true)href="/bewertung?gerichtid={{$Gericht["id"]}}" @else href="/bewertung" @endif>bewerten</a></td>
         </tr>
         @endforeach
     </table>
@@ -66,15 +66,15 @@
     <h2 id="zahlen-mensa">E-Mensa in Zahlen</h2>
     <ul id="mensa-zahlen">
         <!--Einlesen und ausgeben der Besucher Zahl -->
-        <li><?php $datei="counter.txt";
+        <li><?php $datei="../storage/daten/counter.txt";
             $fp = fopen($datei,"a+");
-            $zahl = file_get_contents("counter.txt");
+            $zahl = file_get_contents("../storage/daten/counter.txt");
             echo $zahl; ?> Besucher </li>
         <li>
             <!-- Einlesen uns ausgeben der Newsletter Anmeldungen -->
-            <?php $datei="newsletterZähler.txt";
+            <?php $datei="../storage/daten/newsletterZähler.txt";
             $fp = fopen($datei,"a+");
-            $zahl = file_get_contents("newsletterZähler.txt");
+            $zahl = file_get_contents("../storage/daten/newsletterZähler.txt");
             echo $zahl; ?> Anmeldungen zum Newsletter</li>
         <li>19 Speisen</li>
     </ul>
@@ -84,7 +84,7 @@
 
     <!-- Formular für Newsletter -->
 
-    <form action = "formdata2.php" id="newsletter-formular" method ="post" >
+    <form action = "/newsletter" id="newsletter-formular" method ="post" >
         <fieldset class="formular-felder">
             <div style="float: left">
                 <label for="name" style="float: left">Ihr Name:</label>
