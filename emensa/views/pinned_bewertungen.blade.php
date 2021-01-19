@@ -34,7 +34,7 @@
 
         <?php $i=0 ?>
        @foreach($data as $bewertungen)
-            <div><p>Bewertung Nummer: {{++$i}}</p>
+            <div><p>Bewertung Nummer: {{++$i}} Datum: {{$bewertungen->created_at}}</p></p>
             <p>Zu Gericht: {{$bewertungen->gericht_id}}</p>
                    @if($bewertungen->sternebewertung == "1")
                        <span class="fa fa-star checked"></span>
