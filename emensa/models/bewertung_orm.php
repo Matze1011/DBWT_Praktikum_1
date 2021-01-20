@@ -7,8 +7,6 @@ class BewertungAR extends Illuminate\Database\Eloquent\Model
     public $primarykey = "id";
     public $timestamps = true;
     public $incrementing = true;
-    public $sternebewertung = "sternebewertung";
-
 
     function haha($idVonReview)
     {

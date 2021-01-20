@@ -23,13 +23,9 @@ class BewertungController
             {
                 //$i = (int) $_GET['gerichtid'];
                 $nameVonGericht = new GerichtAR;
-                // $name = $nameVonGericht->getNameAttribute($i);
+
                 $name = $nameVonGericht->name;
-                // var_dump($name);
-                // var_dump($i);
-                // $gericht = GerichtAR::find($i);
-                //$nameVonGericht = $gericht->attributes['name'];
-                //var_dump($nameVonGericht);
+
                 return view('bewertung', ['dataFromDB'=>$dataFromDB,'name'=>$name]);
             }
             else
@@ -45,7 +41,7 @@ class BewertungController
 
         $data = DB::table('bewertung')
             ->where('is_pinned','=',1)
-            ->orderBy('created_at')
+            ->orderBy('created_at','desc')
             ->get();
 
         return view('pinned_bewertungen',['data'=>$data]);

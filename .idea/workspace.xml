@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8bb3c6-9450-4c59-adec-e0353a593fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/counter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/public/inlcudes/newsletterZähler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/cache/wunschgericht.bladec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/storage/daten/newsletterDaten.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emensa/views/wunschgericht.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/werbeseite/img/MenaBild.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/config/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/public/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/counter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/css/stylesheet_werbeseite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/public/newsletterZähler.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/emensaWerbeseite.bladec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/controllers/BewertungController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/storage/cache/meinebewertungen.bladec" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/cache/meinebewertungen.bladec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/storage/logs/anmeldungen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/emensaWerbeseite.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/counter.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/counter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/wunschgericht.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/wunschgericht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emensa/views/meinebewertungen.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/emensa/views/meinebewertungen.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +205,9 @@
       <workItem from="1610990370053" duration="119000" />
       <workItem from="1611009507452" duration="1008000" />
       <workItem from="1611018125837" duration="9202000" />
-      <workItem from="1611066009488" duration="3161000" />
+      <workItem from="1611066009488" duration="4689000" />
+      <workItem from="1611104784474" duration="863000" />
+      <workItem from="1611180915785" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="configurations files added">
       <created>1603130527815</created>
@@ -415,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611027426967</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Meilenstein 6:&#10;Fertig zur Abgabe - Zähler und Counter werden wieder richtig angezeigt.">
+      <created>1611069244030</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1611069244030</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +445,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Aufgabe 5 fast fertig - Abschicken Button fehlt" />
     <MESSAGE value="Aufgabe 6 fertig" />
     <MESSAGE value="Aufgabe 8 fertig" />
     <MESSAGE value="Aufgabe 8 fertig jetzt wirklich. Fehlen nur die vertikalen Linien im Footer" />
@@ -473,7 +469,8 @@
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Styling angepasst bei Bewertungen" />
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Home Button geaddet" />
     <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Kleine Anpassungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Fertig zur Abgabe - Kleine Anpassungen" />
+    <MESSAGE value="Meilenstein 6:&#10;Fertig zur Abgabe - Zähler und Counter werden wieder richtig angezeigt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Meilenstein 6:&#10;Fertig zur Abgabe - Zähler und Counter werden wieder richtig angezeigt." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
