@@ -94,26 +94,26 @@ class BewertungController
     }
     public function hervorheben()
     {
-        $flag =  one();
+        $flag =  one(); //Eloquent
         if ($flag)
         {
             $_SESSION['hervorheben'] = "HERVORHEBEN erfolgreich!";
             header('Location: http://localhost:9000/bewertungen');
         }else{
-            $_SESSION['hervorheben_error'] = "YOU HAVE TO BE ADMIN TO DO THIS!!!";
+            $_SESSION['hervorheben_error'] = "Kein Zugriff!";
             header('Location: http://localhost:9000/bewertungen');
         }
 
     }
     public function hervorhebung_abwaehlen()
     {
-        $flag =  two();
+        $flag =  two(); //Eloquent
         if ($flag)
         {
             $_SESSION['hervorhebung_abwaehlen'] = "HERVORHEBEN erfolgreich ABGEWÄHLT!";
             header('Refresh: 0; URL=/bewertungen');
         }else{
-            $_SESSION['hervorheben_error'] = "YOU HAVE TO BE ADMIN TO DO THIS!!!";
+            $_SESSION['hervorheben_error'] = "Kein Zugriff!";
             header('Refresh: 0; URL=/bewertungen');
         }
 
